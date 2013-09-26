@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/data/repos/bitbucket/chant/collections/CiteIndexInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
+    <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
+    <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
+
+
+    <index inverse="cite:illustratedBy" verb="cite:illustrates">
+        <source type="file" value="imageToSGFolio.csv"/>
+    </index>
+
+
+
+    <index inverse="cite:illustratedBy" verb="cite:illustrates">
+        <source type="file" value="imageToEinsfolio.csv"/>
+    </index>
+
+<!--    
+    <index verb="cite:appearsOn" inverse="cite:hasOnIt">
+        <source type="file" value="linesToFolio.tsv"/>
+    </index>
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="linesToImageRef.tsv"/>
+    </index>
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="linesToModern.tsv"/>
+    </index>
+    
+    <index verb="cite:hasOnIt" inverse="cite:appearsOn">
+        <source type="file" value="linesToText.tsv"/>
+    </index>
+    
+-->    
+    
+</indexInventory>
