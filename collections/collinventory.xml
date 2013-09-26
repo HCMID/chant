@@ -19,6 +19,7 @@
         <citeProperty name="FolioUrn" label="URN" type="citeurn"/>
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         <citeProperty name="Label" label="Page" type="string"></citeProperty>
+        <citeProperty name="DefaultImage" label="Image" type="citeimg"></citeProperty>
     
     </citeCollection>
     
@@ -42,7 +43,7 @@
         <citeProperty name="FolioUrn" label="URN" type="citeurn"/>
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         <citeProperty name="Label" label="Page" type="string"></citeProperty>
-        
+        <citeProperty name="DefaultImage" label="Image" type="citeimg"></citeProperty>        
     </citeCollection>
     
 <!--    
