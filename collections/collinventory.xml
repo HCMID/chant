@@ -15,7 +15,7 @@
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy property="Sequence"></orderedBy>
-        <source type="file" value="folios-sg.tsv"></source>
+        <source type="file" value="folios-sg.csv"></source>
         <citeProperty name="FolioUrn" label="URN" type="citeurn"/>
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         <citeProperty name="Label" label="Page" type="string"></citeProperty>
@@ -38,7 +38,7 @@
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy property="Sequence"></orderedBy>
-        <source type="file" value="folios-eins.tsv"></source>
+        <source type="file" value="folios-eins.csv"></source>
         <citeProperty name="FolioUrn" label="URN" type="citeurn"/>
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         <citeProperty name="Label" label="Page" type="string"></citeProperty>
