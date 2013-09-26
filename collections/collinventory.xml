@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/data/repos/bitbucket/chant/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<collectionService xmlns="http://chs.harvard.edu/xmlns/cite">
+
+    <citeCollection canonicalId="FolioUrn" label="Label" urn="urn:cite:musicmss:sg339">
+        <namespaceMapping abbr="musicmss" fullValue="http://shot.holycross.edu/musicmss/ns"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Folio pages of St. Gallen 339</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Nikolas Churik</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Brian Clark</creator>
+        
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All pages of the manuscript</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">A simple model of sequential pages of St. Gallen 339</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy property="Sequence"></orderedBy>
+        <source type="file" value="folios-sg.tsv"></source>
+        <citeProperty name="FolioUrn" label="URN" type="citeurn"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Label" label="Page" type="string"></citeProperty>
+    
+    </citeCollection>
+    
+    
+    
+    
+    <citeCollection canonicalId="FolioUrn" label="Label" urn="urn:cite:musicmss:sbe0121">
+        <namespaceMapping abbr="musicmss" fullValue="http://shot.holycross.edu/musicmss/ns"></namespaceMapping>
+        <title xmlns="http://purl.org/dc/elements/1.1/">Folio pages of MS Einsiedeln 121</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Nikolas Churik</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Brian Clark</creator>
+        
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">All pages of the manuscript</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">A simple model of sequential pages of MS Einsiedeln 121</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy property="Sequence"></orderedBy>
+        <source type="file" value="folios-eins.tsv"></source>
+        <citeProperty name="FolioUrn" label="URN" type="citeurn"/>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Label" label="Page" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+<!--    
+    <citeCollection canonicalId="LineURN" label="Label" urn="urn:cite:musicmss:lines">
+        <namespaceMapping abbr="musicmss" fullValue="http://shot.holycross.edu/musicmss/ns"></namespaceMapping>
+        
+        <title xmlns="http://purl.org/dc/elements/1.1/">Physical lines of text in edited manuscripts</title>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Nikolas Churik</creator>
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Brian Clark</creator>
+        
+        <creator xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage xmlns="http://purl.org/dc/elements/1.1/">Selection of test pages</coverage>
+        <description xmlns="http://purl.org/dc/elements/1.1/">A simple model of sequences of lines in a folio</description>
+        <rights xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy property="Sequence"/>
+        <source type="file" value="linesAll.csv"/>
+        <citeProperty name="LineURN" label="Line" type="citeurn"></citeProperty>
+        <citeProperty name="Label" label="Line" type="string"></citeProperty>
+        <citeProperty name="ImageReference" label="Visual evidence" type="citeimg"></citeProperty>
+        <citeProperty name="Folio" label="Folio" type="citeurn"></citeProperty>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+    </citeCollection>
+-->    
+    
+    
+</collectionService>
