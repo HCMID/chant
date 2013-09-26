@@ -15,12 +15,12 @@
 
 
     <index  inverse="hmt:isDefaultImage" verb="hmt:hasDefaultImage">
-        <source type="file" value="defaultImageToSG.csv"/>
+        <source type="file" value="defaultImgToSG.csv"/>
     </index>
 
 
     <index  inverse="hmt:isDefaultImage" verb="hmt:hasDefaultImage">
-        <source type="file" value="defaultImageToEins.csv"/>
+        <source type="file" value="defaultImgToEins.csv"/>
     </index>
 
 
