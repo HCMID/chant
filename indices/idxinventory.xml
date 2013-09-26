@@ -9,11 +9,20 @@
         <source type="file" value="imageToSGFolio.csv"/>
     </index>
 
-
-
     <index inverse="cite:illustratedBy" verb="cite:illustrates">
         <source type="file" value="imageToEinsfolio.csv"/>
     </index>
+
+
+    <index  inverse="hmt:isDefaultImage" verb="hmt:hasDefaultImage">
+        <source type="file" value="defaultImageToSG.csv"/>
+    </index>
+
+
+    <index  inverse="hmt:isDefaultImage" verb="hmt:hasDefaultImage">
+        <source type="file" value="defaultImageToEins.csv"/>
+    </index>
+
 
 <!--    
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
