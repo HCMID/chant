@@ -1,7 +1,7 @@
-chant
-=====
+#chant#
 
-Editions of manuscripts with musical notation in neumes
+
+Archial repository for editions of manuscripts with musical notation in neumes
 
 ## License ##
 
