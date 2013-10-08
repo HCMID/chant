@@ -69,6 +69,30 @@
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
     </citeCollection>
 -->    
-    
+    <citeCollection canonicalId="Observation" label="Observation" urn="urn:cite:hcmid:cb48paleo">
+        <namespaceMapping
+	   abbr="hcmid"
+           fullValue="http://shot.holycross.edu/ns/hcmid"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes for HC chant project.</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Planned to offer a complete paleographic repertory of edited MSS.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on manuscripts with musical notation in neumes. </description>
+        
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+
+
+        <source type="file" value="paleo.csv"/>
+        <citeProperty name="Observation" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="Feature" label="Feature" type="string"></citeProperty>
+        <citeProperty name="ImageReference" label="Image URN"  type="citeimg"></citeProperty>
+        <citeProperty name="Comments" label="Comments" type="string"></citeProperty>
+    </citeCollection>    
     
 </collectionService>
