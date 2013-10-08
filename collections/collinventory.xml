@@ -69,7 +69,7 @@
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
     </citeCollection>
 -->    
-    <citeCollection canonicalId="Observation" label="Observation" urn="urn:cite:hcmid:cb48paleo">
+    <citeCollection canonicalId="Observation" label="Observation" urn="urn:cite:hcmid:chantpaleo">
         <namespaceMapping
 	   abbr="hcmid"
            fullValue="http://shot.holycross.edu/ns/hcmid"/>
