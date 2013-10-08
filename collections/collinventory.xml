@@ -74,11 +74,11 @@
 	   abbr="hcmid"
            fullValue="http://shot.holycross.edu/ns/hcmid"/>
         <title
-            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes for HC chant project.</title>
+            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on Saint Gallen MS 339.</title>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">Planned to offer a complete paleographic repertory of edited MSS.</coverage>
+            xmlns="http://purl.org/dc/elements/1.1/">Planned to offer a complete paleographic repertory of St. Gallen 339.</coverage>
         <description
             xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on manuscripts with musical notation in neumes. </description>
         
@@ -88,7 +88,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
 
 
-        <source type="file" value="paleo.csv"/>
+        <source type="file" value="sgpaleo.csv"/>
         <citeProperty name="Observation" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="Feature" label="Feature" type="string"></citeProperty>
         <citeProperty name="ImageReference" label="Image URN"  type="citeimg"></citeProperty>
