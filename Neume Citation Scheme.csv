@@ -23,6 +23,7 @@ Number of pitches, ID number, Episema, Liquescence, Neume name, Description
 2,1,0,0,Pes,rounded checkmark
 2,2,0,0,Distropha,two apostrophes
 2,3,0,0,Bivirga,two virga
+2,4,0,0,Pes Quassus, wiggle-slash
 
 3,0,0,0,Porrectus,hill-slash
 3,1,0,0,Torculus,down-up-down
