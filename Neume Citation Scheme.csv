@@ -17,23 +17,22 @@ Number of pitches, ID number, Episema, Liquescence, Neume name, Description
 
 1,0,0,0,Virga,slash
 1,1,0,0,Punctum,dot
-1,2,0,0,apostropha,apostrophe
+1,2,0,0,Apostropha,apostrophe
 
 2,0,0,0,Clivis,hill
 2,1,0,0,Pes,rounded checkmark
-2,2,0,0,distropha,two apostrophes
-2,3,0,0,bivirga,two virga
+2,2,0,0,Distropha,two apostrophes
+2,3,0,0,Bivirga,two virga
 
 3,0,0,0,Porrectus,hill-slash
 3,1,0,0,Torculus,down-up-down
 3,2,0,0,Climacus,slash-descending-dot-dot
 3,3,0,0,Scandicus,ascending dot-dot-slash
-3,4,0,0,tristropha,three apostrophes
-3,5,0,0,trivirga,three slashes
-3,6,0,0,trigon,three dots in a triangle
+3,4,0,0,Tristropha,three apostrophes
+3,5,0,0,Trivirga,three slashes
+3,6,0,0,Trigon,three dots in a triangle
 
 4,0,0,0,Porrectus Flexus,double-hill
 4,1,0,0,Pes Subbipunctis,check-descending-dot-dot
 4,2,0,0,Scandicus Flexus, ascending dot-dot-hill
 4,3,0,0,Torculus Resupinus,down-up-down-slash
-
