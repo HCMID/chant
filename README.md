@@ -1,4 +1,4 @@
-#chant#
+#chant
 
 
 Archial repository for editions of manuscripts with musical notation in neumes
