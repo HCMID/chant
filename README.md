@@ -15,8 +15,8 @@ All content in this repository is licensed under the Creative Commons Attributio
 
 **URNs**
 
--   Collection of images:  ``
--   Pages of the manuscript: ``
+-   Collection of images:  `urn:cite2:ecod:einsiedeln121imgs.v1:`
+-   Pages of the manuscript: `urn:cite2:ecod:sbe0121pages.v1:`
 -   The text of the antiphonary:  ``
 
 
@@ -28,9 +28,9 @@ Neumes?
 ### St. Gallen, Stiftsbibliothek, Cod. Sang. 339
 
 
--   Collection of images:  ``
--   Pages of the manuscript: ``
--   The text of the antiphonary:  ``
+-   Collection of images:  `urn:cite2:ecod:codsang339imgs.v1:`
+-   Pages of the manuscript: `urn:cite2:ecod:sg339pages.v1:`
+-   The text of the antiphonary:  `??`
 
 
 
