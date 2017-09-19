@@ -17,7 +17,7 @@ All content in this repository is licensed under the Creative Commons Attributio
 
 -   Collection of images:  `urn:cite2:ecod:einsiedeln121imgs.v1:`
 -   Pages of the manuscript: `urn:cite2:ecod:sbe0121pages.v1:`
--   The text of the antiphonary:  ``
+-   The text of the antiphonary:  `??`
 
 
 Other data sets:
