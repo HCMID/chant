@@ -1,7 +1,7 @@
 ## Chant ##
 
 
-Archial repository for editions of manuscripts with musical notation in neumes
+Archival repository for editions of manuscripts with musical notation in neumes
 
 ## License ##
 
