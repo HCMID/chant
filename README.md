@@ -22,6 +22,8 @@ All content in this repository is licensed under the Creative Commons Attributio
 
 Other data sets:
 
+ -  Feast days: `urn:cts:chants:feasts:`
+
 Neumes?
 
 
