@@ -58,12 +58,10 @@
           tera tua domine </ab>
         <ab type = "rubric">CO</ab>
         <ab> Uiderunt omnes sines fines terra salu
-          ta re dei nostri </ab>
+          ta re dei nostri </ab></div>
+
         <div n="12">
           <ab type = "rubric"> In nat <abbr>natus</abbr> sci <abbr>sancti</abbr> Stephani</ab>
-<<<<<<< HEAD
-          <ab> Et enim
-=======
           <ab> Et enim sede
             runt principes et ad
             versum me loquebantur et iniqui
@@ -85,7 +83,7 @@
           <ab>Uideo caelos apertos et ιησυm
           stantem a dextris virtutis</ab>
           <ab type = "rubric">OF</ab>
-          In virtute tua domine laetabitur
+          <ab>In virtute tua domine laetabitur
           iustus et super salutare tuum ex
           ultabit uehementer desiderium
           animae eius tribuistie</ab>
@@ -99,13 +97,12 @@
           am et magnum decorem impo
           nes super eum Desici</ab>
           <ab type = "rubric">Of</ab>
-          Ei egerunt apostoli stephanum
+          <ab>Ei egerunt apostoli stephanum
           levitam plenum fide et spi
           ritu sancto quem lapidaue
           runt iudei orantem et dicentem
           domine iesu accipe spiritum</ab>
->>>>>>> c6c57b047c1149d8c01a6604e2d1c47e28a6d5df
-      </div>
+          </div>
     </body>
   </text>
 </TEI>
