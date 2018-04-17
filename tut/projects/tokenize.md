@@ -32,7 +32,7 @@ The `TeiReader` object can tokenize an entire latin corpus in a single line:
 val urn = CtsUrn("urn:cts:chant:antiphonary.einsiedeln121.text_xml:")
 
 val eins121 = repo.corpus ~~ urn
-val tokens = TeiReader.fromCorpus(eins121)
+val tokens = LatinTeiReader.fromCorpus(eins121)
 ```
 
 
