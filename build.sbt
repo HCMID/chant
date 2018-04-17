@@ -16,7 +16,7 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "ohco2" % "10.5.4",
   "edu.holycross.shot" %% "citeobj" % "6.1.1",
   "edu.holycross.shot" %% "cex" % "6.2.1",
-  "edu.holycross.shot.mid" %% "latin-text-model" % "0.0.3"
+  "edu.holycross.shot.mid" %% "latin-text-model" % "0.0.4"
 )
 
 tutTargetDirectory := file("docs")
