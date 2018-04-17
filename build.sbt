@@ -15,7 +15,8 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "scm" % "5.3.2",
   "edu.holycross.shot" %% "ohco2" % "10.5.4",
   "edu.holycross.shot" %% "citeobj" % "6.1.1",
-  "edu.holycross.shot" %% "cex" % "6.2.1"
+  "edu.holycross.shot" %% "cex" % "6.2.1",
+  "edu.holycross.shot.mid" %% "latin-text-model" % "0.0.3"
 )
 
 enablePlugins(TutPlugin)
