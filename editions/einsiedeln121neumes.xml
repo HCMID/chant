@@ -3,10 +3,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>First advent</title>
+        <title>Mass antiphonary: Einsiedeln 121</title>
+        <editor>Toni Armstrong</editor>
+        <editor>Nicholas Guarracino</editor>
+        <editor>Allyn Waller</editor>
       </titleStmt>
       <editionStmt>
-        <p>Original diplomatic edition of MS XYZ</p>
+        <p>Original diplomatic edition of Einsiedeln 121</p>
       </editionStmt>
       <publicationStmt>
         <p>Digitally published by HC MID</p>
@@ -50,7 +53,7 @@
           3.5.0.0 2.1.2.0 1.1.0.0
         </ab>
         <ab>1.2.0.0 1.2.0.0 <unclear>0.12.0.0-0.3.0.0</unclear>
-        
+
           </ab>
       </div>
     </body>
