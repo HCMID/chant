@@ -1,0 +1,26 @@
+
+
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Chant
+tagline:          'Editing manuscripts with neumes'
+description:      'HC MID project developing diplomatic editions of manuscripts with neumes'
+
+
+baseurl: '/chant/'
+
+
+author:
+  name:           'Neel Smith'
+
+
+links:
+  - title:  Github repository
+    url:  https://github.com/hcmid/chant
+    external: true
+  - title:  Project wiki
+    url:  https://github.com/hcmid/chant/wiki
+    external: true

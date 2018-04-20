@@ -1,7 +1,9 @@
 ## Chant ##
 
 
-Archival repository for editions of manuscripts with musical notation in neumes
+Archival repository for editions of manuscripts with musical notation in neumes.
+
+For more information, see our project wiki or our [project web site](http://hcmid.github.io/chant/).
 
 ## License ##
 
