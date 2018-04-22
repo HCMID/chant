@@ -11,12 +11,12 @@ resolvers += Resolver.bintrayRepo("neelsmith", "maven")
 
 libraryDependencies ++= Seq(
 
-  "edu.holycross.shot.cite" %% "xcite" % "3.2.2",
-  "edu.holycross.shot" %% "scm" % "5.3.2",
-  "edu.holycross.shot" %% "ohco2" % "10.5.4",
-  "edu.holycross.shot" %% "citeobj" % "6.1.1",
+  "edu.holycross.shot.cite" %% "xcite" % "3.3.0",
+  "edu.holycross.shot" %% "scm" % "6.0.0",
+  "edu.holycross.shot" %% "ohco2" % "10.7.0",
+  "edu.holycross.shot" %% "citeobj" % "7.0.1",
   "edu.holycross.shot" %% "cex" % "6.2.1",
-  "edu.holycross.shot.mid" %% "latin-text-model" % "0.0.5"
+  "edu.holycross.shot.mid" %% "latin-text-model" % "1.0.1"
 )
 
 tutTargetDirectory := file("docs")
