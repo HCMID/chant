@@ -21,8 +21,6 @@ The contents of our citable texts follow editorial standards developed at HC MID
 import edu.holycross.shot.mid.latinmodel._
 ```
 
-## For more information
-
 
 If you're interested in learning more about using these libraries beyond the examples in these tutorials, the `cite` and `ohco2` libraries each have web sites with extensive documentation:
 

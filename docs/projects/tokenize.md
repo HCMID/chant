@@ -26,7 +26,7 @@ val repo = TextRepositorySource.fromFiles(catalog,citation,editions)
 The text repository includes a catalog and a corpus of textual data.
 Identify an XML edition you want to tokenize with a `CtsUrn`, and select its contents with the twiddle operator `~~`.  This creates a new corpus containing only the text contents with matching URNs.
 
-The `TeiReader` object can tokenize an entire latin corpus in a single line:
+The `LatinTeiReader` object can tokenize an entire latin corpus in a single line:
 
 ```scala:silent
 val urn = CtsUrn("urn:cts:chant:antiphonary.einsiedeln121.text_xml:")
@@ -34,8 +34,3 @@ val urn = CtsUrn("urn:cts:chant:antiphonary.einsiedeln121.text_xml:")
 val eins121 = repo.corpus ~~ urn
 val tokens = LatinTeiReader.fromCorpus(eins121)
 ```
-
-
-## Working with edited tokens
-
-TBA
