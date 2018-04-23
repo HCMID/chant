@@ -111,5 +111,6 @@ val txtResult = for (kvpair <- sorted) yield {
   val pct = (kvpair._2 / totalNeumes.toFloat) * 100
   kvpair._1 +  "\t" + f"$pct%1.1f"
 }
-"Neume\tPercentage\n" + txtResult.mkString("\n")
+val table = "Neume\tPercentage\n" + txtResult.mkString("\n")
+table
 ```
