@@ -32,7 +32,7 @@ val neumeText = eins121neumeNodes.nodes.map(cn => CitableNode(cn.urn, edu.holycr
 
 val eins121neumeOptions = for (n <- neumeText) yield {
   try {
-    val neume = Syllable(n)
+    val neume = Syllabifier(n)
     Some(neume)
   } catch {
     case t: Throwable => {
@@ -42,7 +42,17 @@ val eins121neumeOptions = for (n <- neumeText) yield {
   }
 }
 
-val eins121neumes = eins121neumeOptions.flatten
-val neumeNames = eins121neumes.map(_.name)
+val eins121syllableReal = eins121neumeOptions.flatten
+val eins121sylls = eins121syllableReal.flatten
+
+for (s <- eins121sylls) {
+  val neumeNames = s.neumes.map(_.name)
+  println(neumeNames.mkString("+"))
+}
+
+
+
+
+///val neumeNames = eins121neumes.map(_.name)
 
 ```

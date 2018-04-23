@@ -42,7 +42,15 @@ val eins121neumeOptions = for (n <- neumeText) yield {
   }
 }
 
-val eins121neumes = eins121neumeOptions.flatten
+val eins121syllableReal = eins121neumeOptions.flatten
+val eins121sylls = eins121syllableReal.flatten
+
+for (s <- eins121sylls) {
+  val neumeNames = s.neumes.map(_.name)
+  println(neumeNames.mkString("+"))
+}
+
+
 
 
 ///val neumeNames = eins121neumes.map(_.name)
