@@ -97,7 +97,7 @@ def sum(v: Vector[Int], subTotal: Int = 0): Int = {
 
 This is one way in Scala to count frequencies of individual elements in a list, sort the result by frequency, and pretty print a table of percentages.
 
-```scala:silent
+```scala
 
 val grouped = neumeNames.groupBy(w => w)
 val freqs = grouped.map { case (k,v) => (k,v.size) }
@@ -107,8 +107,9 @@ val sorted = freqs.toSeq.sortBy(_._2).reverse
 
 val totalNeumes = sum (sorted.map(_._2).toVector)
 
-for (kvpair <- sorted) {
+val txtResult = for (kvpair <- sorted) yield {
   val pct = (kvpair._2 / totalNeumes.toFloat) * 100
-  println(kvpair._1 +  "\t" + f"$pct%1.1f")
+  kvpair._1 +  "\t" + f"$pct%1.1f"
 }
+"Neume\tPercentage\n" + txtResult.mkString("\n")
 ```
