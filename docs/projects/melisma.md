@@ -1,5 +1,5 @@
 ---
-title: "Align neumes and text"
+title: "Measuring the melismatic quality of a text"
 layout: page
 ---
 
@@ -41,14 +41,13 @@ for (psg <- neumedPassages) {
   val diplomaticTokens = psgTokens.map(_.readWithDiplomatic)
   val diplomaticLC  = diplomaticTokens.map(_.text.toLowerCase).map(_.replaceAll("v", "u"))
 
-  val syllables = for (diplToken <- diplomaticLC) yield {
+  val syllabified = for (diplToken <- diplomaticLC) yield {
     val latinString = LatinString(diplToken, alphabet)
     latinString.syllabify
   }
-  val syllableWords = syllables.map( v => v.mkString("-"))
-  println("\n\n\nFOR " + psg )
-  println("\tTEXT " + CtsUrn(textUrn.toString + psg) + s",  ${syllables.size} syllables")
-  println(syllableWords.mkString(" "))
+  val syllableCount = syllabified.flatten.size
+
+  val syllableWords = syllabified.map( v => v.mkString("-"))
   val nodeCorpus = eins121neumeCorpus ~~ CtsUrn(neumesUrn.toString + psg)
   val neumeText = nodeCorpus.nodes.map(cn => CitableNode(cn.urn, edu.holycross.shot.mid.latinmodel.collectText(cn.text)))
 
@@ -63,10 +62,18 @@ for (psg <- neumedPassages) {
       }
     }
   }
-  val neumesReal = eins121neumeOptions.flatten
+  val passagesReal = eins121neumeOptions.flatten
+  val syllablesReal = passagesReal.flatten
+  val neumeCount = syllablesReal.map(_.neumes).flatten.size
 
-  println("\tNEUMES " +  CtsUrn(neumesUrn.toString + psg) + s", ${neumesReal.flatten.size} neumes")
-  println(neumesReal.flatten)
+  val melisma = neumeCount / syllableCount.toFloat
+
+  println("\n\n\nPassage: " + psg )
+  println(syllableWords.mkString(" "))
+  println("SYLLABLES of text:  " + syllableCount)
+  println("NEUMES " + neumeCount)
+
+  println("Degree of melisma: " + f"$melisma%1.1f")
 }
 
 
