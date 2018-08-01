@@ -18,7 +18,10 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "cex" % "6.2.1",
   "edu.holycross.shot.mid" %% "latin-text-model" % "1.1.0",
   "edu.holycross.shot" %% "latphone" % "0.0.1",
-  "edu.holycross.shot" %% "virgapes" % "2.0.0"
+  "edu.holycross.shot" %% "virgapes" % "2.0.0",
+
+  "edu.holycross.shot" %% "tabulae" % "1.0.0",
+  "com.github.pathikrit" %% "better-files" % "3.5.0"
 
 )
 
