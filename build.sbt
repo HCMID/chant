@@ -1,8 +1,5 @@
 
-
-crossScalaVersions in ThisBuild := Seq("2.11.8", "2.12.4")
-scalaVersion := (crossScalaVersions in ThisBuild).value.last
-
+scalaVersion := "2.12.3"
 
 
 resolvers += Resolver.jcenterRepo
@@ -11,20 +8,11 @@ resolvers += Resolver.bintrayRepo("neelsmith", "maven")
 
 libraryDependencies ++= Seq(
 
-  "edu.holycross.shot.cite" %% "xcite" % "3.3.0",
-  "edu.holycross.shot" %% "scm" % "6.0.0",
-  "edu.holycross.shot" %% "ohco2" % "10.7.0",
-  "edu.holycross.shot" %% "citeobj" % "7.0.1",
-  "edu.holycross.shot" %% "cex" % "6.2.1",
-  "edu.holycross.shot.mid" %% "latin-text-model" % "1.1.0",
-  "edu.holycross.shot" %% "latphone" % "0.0.1",
-  "edu.holycross.shot" %% "virgapes" % "2.0.0",
+  "edu.holycross.shot.cite" %% "xcite" % "3.6.0",
+  "edu.holycross.shot" %% "scm" % "6.1.1",
+  "edu.holycross.shot" %% "ohco2" % "10.9.0",
+  "edu.holycross.shot" %% "citeobj" % "7.1.1",
+  "edu.holycross.shot" %% "cex" % "6.2.1"
 
-  "edu.holycross.shot" %% "tabulae" % "1.0.0",
-  "com.github.pathikrit" %% "better-files" % "3.5.0"
 
 )
-
-tutTargetDirectory := file("docs")
-tutSourceDirectory := file("tut")
-enablePlugins(TutPlugin)
