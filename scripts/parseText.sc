@@ -18,14 +18,16 @@ val txt = c ~~  CtsUrn("urn:cts:chant:antiphonary.einsiedeln121.text_xml:")
 
 val txtUrns = txt.nodes.map(_.urn)
 
+/*
 for (u <- txtUrns)  {
   println(u)
   print("\ttokens:  ")
   val oneNode = txt ~~ u
-  val tokens = LatinTeiReader.fromCorpus(oneNode)
-  println(tokens.size)
+  val nodeTokens = LatinTeiReader.fromCorpus(oneNode)
+  println(nodeTokens.size)
 
 }
-
+*/
+val tokens= LatinTeiReader.fromCorpus(txt)
 
 //

@@ -15,6 +15,7 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "cex" % "6.2.1",
 
   "edu.holycross.shot.mid" %% "latin-text-model" % "1.3.0"
-
-
 )
+tutTargetDirectory := file("docs")
+tutSourceDirectory := file("tut")
+enablePlugins(TutPlugin)
