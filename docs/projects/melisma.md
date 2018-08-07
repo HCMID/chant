@@ -6,7 +6,7 @@ layout: page
 
 ## Prepare a corpus
 
-Load the libraries you'll use, and create a digital text corpus as [explained in this tutorial](../corpus), and tokenize the text (as explained in [this tutorial]()../tokenize)).
+Load the libraries you'll use, and create a digital text corpus as [explained in this tutorial](../corpus), and tokenize the text (as explained in [this tutorial](../tokenize)).
 
 ```scala:silent
 import edu.holycross.shot.cite._
