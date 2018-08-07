@@ -8,7 +8,7 @@ layout: page
 
 Load the libraries you'll use, and create a digital text corpus as [explained in this tutorial](../corpus), and tokenize the text (as explained in [this tutorial]()../tokenize)).
 
-```scala:silent
+```tut:silent
 import edu.holycross.shot.cite._
 import edu.holycross.shot.ohco2._
 import edu.holycross.shot.mid.latinmodel._
@@ -29,6 +29,6 @@ val tokens = LatinTeiReader.fromCorpus(eins121)
 
 You can read your tokens with a purely diplomatic reading:
 
-```scala:silent
+```tut:silent
 val diplomaticTokens = tokens.map(_.readWithDiplomatic)
 ```
