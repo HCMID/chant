@@ -29,7 +29,21 @@ Other data sets:
 Neumes?
 
 
+### St. Gallen, Stiftsbibliothek, Cod. Sang. 359
+
+**URNs**
+
+
+-   Collection of images:  `urn:cite2:ecod:codsang359imgs.v1:`
+-   Pages of the manuscript: `urn:cite2:ecod:sg3d539pages.v1:`
+-   The text of the antiphonary:  `??`
+
+
+
+
 ### St. Gallen, Stiftsbibliothek, Cod. Sang. 339
+
+**URNs**
 
 
 -   Collection of images:  `urn:cite2:ecod:codsang339imgs.v1:`
