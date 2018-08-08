@@ -44,9 +44,3 @@ val syllables = for (diplToken <- diplomaticLC) yield {
   latinString.syllabify
 }
 ```
-
-You can read your tokens with a purely diplomatic reading:
-
-```scala
-
-```

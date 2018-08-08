@@ -36,17 +36,11 @@ val diplomaticTokens = tokens.map(_.readWithDiplomatic)
 ## Syllabify
 
 
-```scala
+```tut:silent
 val alphabet = edu.holycross.shot.latin.Latin23Alphabet
 val diplomaticLC  = diplomaticTokens.map(_.text.toLowerCase).map(_.replaceAll("v", "u"))
 val syllables = for (diplToken <- diplomaticLC) yield {
   val latinString = LatinString(diplToken, alphabet)
   latinString.syllabify
 }
-```
-
-You can read your tokens with a purely diplomatic reading:
-
-```tut:silent
-
 ```
