@@ -8,17 +8,12 @@ layout: page
 
 Load the libraries you'll use, and create a digital text corpus as [explained in this tutorial](../corpus), and tokenize the text (as explained in [this tutorial]()../tokenize)).
 
+
+
+
 ```scala
-import edu.holycross.shot.cite._
-import edu.holycross.shot.ohco2._
-import edu.holycross.shot.mid.latinmodel._
-import edu.holycross.shot.latin._
-import edu.holycross.shot.virgapes._
-
-val catalog = "editions/catalog.cex"
-val citation = "editions/citation.cex"
-val editions = "editions"
-
+// after doing all imports, defining catalog, citation
+// and editions values...
 val repo = TextRepositorySource.fromFiles(catalog,citation,editions)
 ```
 
@@ -31,8 +26,19 @@ val textUrn = CtsUrn("urn:cts:chant:antiphonary.einsiedeln121.text_xml:")
 
 val eins121neumeCorpus  = repo.corpus ~~ neumesUrn
 val textCorpus = repo.corpus ~~ textUrn
+```
 
+
+## Tokenize text edition
+
+
+```scala
 val tokens = LatinTeiReader.fromCorpus(textCorpus)
+```
+
+
+## Align text and neumes
+```scala
 val neumedPassages = eins121neumeCorpus.nodes.map(_.urn.passageComponent)
 
 val alphabet = edu.holycross.shot.latin.Latin23Alphabet
