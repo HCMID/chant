@@ -47,7 +47,12 @@ val tokens = LatinTeiReader.fromCorpus(textCorpus)
 
 
 ## Align text and neumes
+
+Define an aligning function
+
 ```tut:silent
+
+
 val neumedPassages = eins121neumeCorpus.nodes.map(_.urn.passageComponent)
 
 val alphabet = edu.holycross.shot.latin.Latin23Alphabet
