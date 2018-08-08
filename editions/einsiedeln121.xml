@@ -21,13 +21,15 @@
       <div n="11">
         <div n="introit">
           <ab n="1">Puer natus est nobis et filius datus
-          est nobis cuius imperium super humerumeius et
+          est nobis cuius imperium super humeru meius et
           uocabitur nomen eius magni consilii angelus.</ab>
           <ab n="2">Cantate doioaiuouu quia iaiiaei</ab>
           <ab n="3">Uiderunt omnes fines terrae salutare dei nostri
           <w>iubil<unclear>ate</unclear></w> deo <w><unclear>
           o</unclear>mnis</w> terra</ab>
           <ab type="rubric" n="r1">V</ab>
+
+          <!--
           <ab n="4">Notum fecit dominus saluta re suum ante conspectum
           gentium re uela uit iustitiam suam </ab>
           <ab n="5">alleluia </ab>
@@ -60,8 +62,11 @@
           <ab type = "rubric" n="r6">CO</ab>
           <ab n="11"> Uiderunt omnes sines fines terra salu
             ta re dei nostri </ab>
-        </div>
+        </div
+
+      </div>-->
       </div>
+      <!--
       <div n="12">
         <div n="SECTIONNEEDED">
           <ab type = "rubric" n="r1"> In nat <abbr>natus</abbr> sci <abbr>sancti</abbr> Stephani</ab>
@@ -84,7 +89,7 @@
           pter misericordiam tuam</ab>
           <ab n="5">Alleluia</ab>
           <ab n="6">dei</ab>
-          <ab n="7">Uideo caelos apertos et <seg ana="syll" n="ιη-συm"><foreign>ιησυm</foreign></seg>
+          <ab n="7">Uideo caelos apertos et iesum
           stantem a dextris virtutis</ab>
           <ab type = "rubric" n="r5">OF</ab>
           <ab n="8">In virtute tua domine laetabitur
@@ -109,6 +114,8 @@
           runt iudei orantem et dicentem
           domine iesu accipe spiritum</ab>
         </div>
+      </div>
+   -->
       </div>
     </body>
   </text>
