@@ -8,7 +8,7 @@ layout: page
 
 Load the libraries you'll use, and create a digital text corpus as [explained in this tutorial](../corpus), and tokenize the text (as explained in [this tutorial]()../tokenize)).
 
-```scala:silent
+```tut:silent
 import edu.holycross.shot.cite._
 import edu.holycross.shot.ohco2._
 import edu.holycross.shot.mid.latinmodel._
@@ -26,7 +26,7 @@ val repo = TextRepositorySource.fromFiles(catalog,citation,editions)
 
 Select a text identified by URN, tokenize this token, and read it.  The example below chooses a diplomatic reading.
 
-```scala:silent
+```tut:silent
 val urn = CtsUrn("urn:cts:chant:antiphonary.einsiedeln121.text_xml:")
 val eins121 = repo.corpus ~~ urn
 val tokens = LatinTeiReader.fromCorpus(eins121)
@@ -47,6 +47,6 @@ val syllables = for (diplToken <- diplomaticLC) yield {
 
 You can read your tokens with a purely diplomatic reading:
 
-```scala:silent
+```tut:silent
 
 ```
