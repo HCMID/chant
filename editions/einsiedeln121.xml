@@ -21,7 +21,7 @@
       <div n="11">
         <div n="introit">
           <ab n="1">Puer natus est nobis et filius datus
-          est nobis cuius imperium super humeru meius et
+          est nobis cuius imperium super humerum eius et
           uocabitur nomen eius magni consilii angelus.</ab>
           <ab n="2">Cantate doioaiuouu quia iaiiaei</ab>
           <ab n="3">Uiderunt omnes fines terrae salutare dei nostri
@@ -30,38 +30,30 @@
           <ab type="rubric" n="r1">V</ab>
 
           <!--
-          <ab n="4">Notum fecit dominus saluta re suum ante conspectum
-          gentium re uela uit iustitiam suam </ab>
+          <ab n="4">Notum fecit dominus salutare suum ante conspectum
+          gentium reuelauit iustitiam suam </ab>
           <ab n="5">alleluia </ab>
           <ab n="6">Dies sanctificatus inluxit nobis venite
           gentes et adorate dominum quia hodie discendit
           lux magna super terram</ab>
           <ab type="rubric" n="r2"><choice><abbr>Of</abbr>
-          <expan>Offertory</expan></choice></ab>
+          <expan>Offertorium</expan></choice></ab>
           <ab n="7">Tui sunt caeli et tua est terra orbem terrarum
-          et plenitudi<unclear>neme ius</unclear> tu fundasti
+          et <w>plenitudi<unclear>nem</uclear></w> <unclear>eius</unclear> tu fundasti
           <choice><sic>iustitia</sic><corr>iustitiam</corr>
-        </choice> et iudicium preparatio se dis tuae</ab>
+        </choice> et iudicium preparatio sedis tuae</ab>
           <ab type ="rubric" n="r3">VR</ab>
-          <ab n="8"> Magnus et metuendus super om
-            nes quiincircuitu e ius sunt tu
-            domina ris potestatis maris mo
-            tum autem fluctuum eius tu
+          <ab n="8"> Magnus et metuendus super omnes qui in circuitu eius sunt tu
+            dominaris potestatis maris motum autem fluctuum eius tu
             mitigas IUSTITIA </ab>
           <ab type = "rubric" n="r4">V</ab>
-          <ab n="9"> Misericordia et ua
-            ritas praeibunt ante saciem tu
-            am et in <choice><sic>beneplacito</sic><corr>bene placito</corr></choice> tuo exaltabi
-            tur cornu nostrum </ab>
+          <ab n="9"> Misericordia et uaritas praeibunt ante saciem tuam et in bene placito tuo exaltabitur cornu nostrum </ab>
           <ab type = "rubric" n="r5">V</ab>
           <ab n="10"> Tu humiliasti sicut uulneratum
-            superbum et inuirtute brachii
-            tui dispersisti inimicos tuos fir
-            metur manus tua et exaltetur dex
-            tera tua domine </ab>
+            superbum et in uirtute brachii
+            tui dispersisti inimicos tuos firmetur manus tua et exaltetur dextera tua domine </ab>
           <ab type = "rubric" n="r6">CO</ab>
-          <ab n="11"> Uiderunt omnes sines fines terra salu
-            ta re dei nostri </ab>
+          <ab n="11"> Uiderunt omnes sines fines terra salutare dei nostri </ab>
         </div
 
       </div>-->
@@ -69,49 +61,37 @@
       <!--
       <div n="12">
         <div n="SECTIONNEEDED">
-          <ab type = "rubric" n="r1"> In nat <abbr>natus</abbr> sci <abbr>sancti</abbr> Stephani</ab>
+          <ab type = "rubric" n="r1"> In nat sci sancti Stephani</ab>
 
-          <ab n="1"> Et enim sede
-            runt principes et ad
-            versum me loquebantur et iniqui
-            perfecuti sunt me ad iuua me domi
-            ne deus meus quia seruus tuus exer
-            cebatur intuis iustificatioribus </ab>
+          <ab n="1"> Et enim sederunt principes et adversum me loquebantur et iniqui
+            persecuti sunt me ad iuua me domine deus meus quia seruus tuus exercebatur in tuis iustificatioribus </ab>
           <ab type = "rubric" n="r2">PS</ab>
           <ab n="2">Beati imauaiiiaiaiiain eeoii</ab>
           <ab type = "rubric" n="r3">RG</ab>
-          <ab n="3">Sederunt principes et ad uer
-          sum me loquebantur et iniqui
-          perfecuti sunt me</ab>
+          <ab n="3">Sederunt principes et aduersum me loquebantur et iniqui
+          persecuti sunt me</ab>
           <ab type = "rubric" n="r4">VR</ab>
           <ab n="4">Adiuua me domine
-          deus me us saluum me fac pro
-          pter misericordiam tuam</ab>
+          deus meus saluum me fac propter misericordiam tuam</ab>
           <ab n="5">Alleluia</ab>
           <ab n="6">dei</ab>
           <ab n="7">Uideo caelos apertos et iesum
           stantem a dextris virtutis</ab>
           <ab type = "rubric" n="r5">OF</ab>
           <ab n="8">In virtute tua domine laetabitur
-          iustus et super salutare tuum ex
-          ultabit uehementer desiderium animae eius tribuistie
+          iustus et super salutare tuum exultabit uehementer desiderium animae eius tribuisti
           </ab>
           <ab type = "rubric" n="r6">V</ab>
-          <ab n="9">Vitam peciit et tribui
-          sti ei longitudinem die
-          rum in seculum saeculi Desio
+          <ab n="9">Vitam peciit et tribuisti ei longitudinem dierum in seculum saeculi Desio
           </ab>
           <ab type = "rubric" n="r7">V</ab>
           <ab n="10">Magna est gloria eius in salutari
           tuo magna est gloria eius in salutari tuo glori
-          am et magnum decorem impo
-          nes super eum Desici</ab>
+          am et magnum decorem impones super eum Desici</ab>
           <ab type = "rubric" n="r8">Of</ab>
           <ab n="11">
           Ei egerunt apostoli stephanum
-          levitam plenum fide et spi
-          ritu sancto quem lapidaue
-          runt iudei orantem et dicentem
+          levitam plenum fide et spiritu sancto quem lapidauerunt iudei orantem et dicentem
           domine iesu accipe spiritum</ab>
         </div>
       </div>
