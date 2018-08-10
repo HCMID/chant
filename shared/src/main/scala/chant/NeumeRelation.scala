@@ -1,12 +1,38 @@
 package io.github.hcmid.chant
 
 case class NeumeRelation(pitches: Vector[RelativePitch]) {
+
+  /** Create a new [[NeumeRelation]] comprising in order
+  * the relative pitches of this relation followed by the
+  * relative pitches of the second relation.
+  *
+  * @paramnr NeumeRelation to add tothis one.
+  */
   def ++ (nr: NeumeRelation): NeumeRelation = {
     NeumeRelation(pitches ++ nr.pitches)
+  }
+
+  /** Create a new [[NeumeRelation]] comprising in order
+  * the relative pitches of this relation followed by the
+  * relative pitches of a vector of neume relations.
+  *
+  * @paramnr NeumeRelation to add tothis one.
+  */
+  def ++ (v: Vector[NeumeRelation]): NeumeRelation = {
+    if (v.isEmpty) {
+      this
+    } else {
+      val subTotal = this ++ v.head
+      subTotal ++ v.tail
+    }
   }
 }
 
 object NeumeRelation {
+
+  def sum(v: Vector[NeumeRelation]): NeumeRelation = {
+    v.head ++ v.tail
+  }
 
   def relationForName(s: String) : Option[NeumeRelation] = {
     s match {
