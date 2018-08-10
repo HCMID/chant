@@ -45,9 +45,27 @@ def movement (cn : CitableNode) = {
 }
 
 val mvs = noLetters.map(movement(_))
+
+val deOptioned = mvs.map(_.flatten)
+val summed = deOptioned.map(NeumeRelation.sum(_))
+val labelled = summed.map( nr => nr.pitches.map(_.label).mkString(" ") )
+
+val urnList = neumes.nodes.map(_.urn)
+val  citableNeumeRelations =  urnList zip labelled
+val relationCorpus =  Corpus(citableNeumeRelations.map{ case (u,s) => CitableNode(u,s) })
+
+import java.io.PrintWriter
+new PrintWriter("pitchCorpus.cex"){write(relationCorpus.cex("#")); close;}
+
+
+/*
 val totalSeq = mvs.map(_.flatten).flatten
 val singleRelation = NeumeRelation.sum(totalSeq)
 val relationString = singleRelation.pitches.map(_.label)
+
+*/
+
+
 /*
 def zipfUpDown(s: String) ={
   val neumeText = s.split("[ \t\n\\-]").toVector.filter(_.nonEmpty)
