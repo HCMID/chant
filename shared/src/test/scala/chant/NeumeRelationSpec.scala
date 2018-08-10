@@ -11,7 +11,7 @@ import edu.holycross.shot.mid.latinmodel._
 class NeumeRelationSpec extends FlatSpec {
 
   "The NeumeRelation object" should "find an optional NeumeRelation for a neume name" in {
-    val pes = NeumeRelation(Vector(Neutral))
+    val pes = NeumeRelation(Vector(High))
     assert (NeumeRelation.relationForName("pes").get == pes)
   }
 }

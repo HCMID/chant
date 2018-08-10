@@ -7,11 +7,24 @@ case class NeumeRelation(pitches: Vector[RelativePitch]) {
 object NeumeRelation {
 
   def relationForName(s: String) : Option[NeumeRelation] = {
-    /*
-    pes, virga, torculus, punctum, tristropha, porrectus flexus, clivis, porrectus, trigon, distropha, quilisma
-    */
     s match {
-      case "pes" => Some(NeumeRelation(Vector(Neutral)))
+      case "virga" => Some(NeumeRelation(Vector(Neutral)))
+      case "punctum" => Some(NeumeRelation(Vector(Neutral)))
+      case "pes" => Some(NeumeRelation(Vector(High)))
+      case "quilisma" => Some(NeumeRelation(Vector(Neutral)))
+
+      case "clivis" => Some(NeumeRelation(Vector(High, Low)))
+      case "distropha" => Some(NeumeRelation(Vector(Neutral, Neutral)))
+
+
+      case "torculus" => Some(NeumeRelation(Vector(Neutral,High, Low)))
+      case "porrectus" => Some(NeumeRelation(Vector(High, Low,High)))
+      case "distropha" => Some(NeumeRelation(Vector(Neutral, Neutral, Neutral)))
+      case "trigon" => Some(NeumeRelation(Vector(Neutral, High, Low)))
+
+      case "porrectus flexus" => Some(NeumeRelation(Vector(High, Low,High,Low)))
+
+
       case _ => None
     }
   }
