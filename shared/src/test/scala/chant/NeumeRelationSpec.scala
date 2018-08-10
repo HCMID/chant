@@ -14,4 +14,13 @@ class NeumeRelationSpec extends FlatSpec {
     val pes = NeumeRelation(Vector(High))
     assert (NeumeRelation.relationForName("pes").get == pes)
   }
+
+
+  it should "create a new NeumeRelation by adding a second NeumeRelation" in {
+    val nr1 = NeumeRelation(Vector(Neutral))
+    val nr2 = NeumeRelation(Vector(Neutral, High, Low))
+    val expected = NeumeRelation(Vector(Neutral,Neutral,High,Low))
+    val newNR = nr1 ++ nr2
+    assert(newNR == expected)
+  }
 }

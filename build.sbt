@@ -30,7 +30,7 @@ lazy val crossed = crossProject.in(file(".")).
         "edu.holycross.shot" %% "cex" % "6.2.1",
         "edu.holycross.shot" %% "latphone" % "1.5.1",
         "edu.holycross.shot.mid" %% "latin-text-model" % "1.3.0",
-        "edu.holycross.shot" %% "virgapes" % "3.4.0"
+        "edu.holycross.shot" %% "virgapes" % "3.5.0"
       )
     ).
     jvmSettings(

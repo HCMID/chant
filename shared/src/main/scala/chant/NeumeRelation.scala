@@ -1,7 +1,9 @@
 package io.github.hcmid.chant
 
 case class NeumeRelation(pitches: Vector[RelativePitch]) {
-
+  def ++ (nr: NeumeRelation): NeumeRelation = {
+    NeumeRelation(pitches ++ nr.pitches)
+  }
 }
 
 object NeumeRelation {
@@ -19,7 +21,7 @@ object NeumeRelation {
 
       case "torculus" => Some(NeumeRelation(Vector(Neutral,High, Low)))
       case "porrectus" => Some(NeumeRelation(Vector(High, Low,High)))
-      case "distropha" => Some(NeumeRelation(Vector(Neutral, Neutral, Neutral)))
+      case "tristropha" => Some(NeumeRelation(Vector(Neutral, Neutral, Neutral)))
       case "trigon" => Some(NeumeRelation(Vector(Neutral, High, Low)))
 
       case "porrectus flexus" => Some(NeumeRelation(Vector(High, Low,High,Low)))
