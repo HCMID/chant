@@ -1,5 +1,5 @@
 | image    | caption  |
- |:---------|:---------|
+|:---------|:---------|
 | ![](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_002.tif&WID=100&CVT=JPEG) | [Einsiedeln, Stiftsbibliothek, Codex 121 (1151), page 2.](http://www.homermultitext.org/ict2?urn=urn:cite2:ecod:einsiedeln121imgs.v1:sbe_0121_002) |
 | ![](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_003.tif&WID=100&CVT=JPEG) | [Einsiedeln, Stiftsbibliothek, Codex 121 (1151), page 3.](http://www.homermultitext.org/ict2?urn=urn:cite2:ecod:einsiedeln121imgs.v1:sbe_0121_003) |
 | ![](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_004.tif&WID=100&CVT=JPEG) | [Einsiedeln, Stiftsbibliothek, Codex 121 (1151), page 4.](http://www.homermultitext.org/ict2?urn=urn:cite2:ecod:einsiedeln121imgs.v1:sbe_0121_004) |
