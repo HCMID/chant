@@ -1,5 +1,5 @@
-| Neume number | Neume | Illustration    | 
- |:---------|:---------|:---------|
+| Neume number | Neume | Illustration    |
+|:---------|:---------|:---------|
 | 0.1.0.0 | Significative Letter A | [![](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.619,0.7712,0.016,0.0128&CVT=JPEG)](http://www.homermultitext.org/ict2?urn=urn:cite2:ecod:einsiedeln121imgs.v1:sbe_0121_030@0.619,0.7712,0.016,0.0128) |
 | 0.3.0.0 | Significative Letter C | [![](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.85,0.3061,0.01,0.009&CVT=JPEG)](http://www.homermultitext.org/ict2?urn=urn:cite2:ecod:einsiedeln121imgs.v1:sbe_0121_030@0.85,0.3061,0.01,0.009) |
 | 0.5.0.0 | Significative Letter E | [![](http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.794,0.054,0.019,0.0165&CVT=JPEG)](http://www.homermultitext.org/ict2?urn=urn:cite2:ecod:einsiedeln121imgs.v1:sbe_0121_030@0.794,0.054,0.019,0.0165) |
