@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>First advent</title>
+        <title>Mass chant book</title>
       </titleStmt>
       <editionStmt>
-        <p>Original diplomatic edition of Einsiedeln 121</p>
+        <p>Original diplomatic edition of St. Gallen 359</p>
       </editionStmt>
       <publicationStmt>
         <p>Digitally published by HC MID</p>
@@ -20,10 +20,8 @@
     <body>
       <div n="11">
         <div n="introit">
-          <ab n="1">Puer natus est nobis et filius datus
-          est nobis cuius imperium super humerum eius et
-          uocabitur nomen eius magni consilii angelus.</ab>
-          <ab n="2">Cantate doioaiuouu quia iaiiaei</ab>
+          <ab n="1">Puer natus est nobis.</ab>
+          <ab n="2">Cantate <choice><abbr>dno</abbr><expan>domino</expan></choice></ab>
           <ab n="3">Uiderunt omnes fines terrae salutare dei nostri
           <w>iubil<unclear>ate</unclear></w> deo <w><unclear>
           o</unclear>mnis</w> terra</ab>

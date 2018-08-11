@@ -1,3 +1,4 @@
 urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#language
-urn:cts:chant:antiphonary.einsiedeln121.text_xml:#feast,section,part#Antiphonary#Einsiedeln 121 manuscript#HC MID chant group, XML edition of Latin text##true#lat
-urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:#feast,section,part#Antiphonary#Einsiedeln 121 manuscript#HC MID chant group, XML edition of neumes##true#N/A
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:#day/part/sectionChant#Chant#Mass chant book#Einsielden 121, neumes##true#lat
+urn:cts:chant:antiphonary.einsiedeln121.text_xml:#day/part/sectionChant#Chant#Mass chant book#Einsielden 121, text##true#lat
+urn:cts:chant:antiphonary.sg359.text_xml:#feast,section,part#Chant#Mass chant book#St. Gallen codex359, text##true#lat
