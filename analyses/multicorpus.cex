@@ -1,0 +1,30 @@
+#!cexversion
+1.0
+
+#!citelibrary
+name#demo
+urn#urn:cite2:chant:demo.v1:einseiedlen
+license#CC Share Alike.  For details, see more info.
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online
+urn:cts:chant:antiphonary.einsiedeln121.pitches:#day/part/sectionChant#Chant#Mass chant book#Einsielden 121,v relative movement of pitched neumes##true#lat#
+urn:cts:chant:antiphonary.einsiedeln121.neumes:#day/part/sectionChant#Chant#Mass chant book#Einsielden 121, neumes##true#lat
+urn:cts:chant:antiphonary.einsiedeln121.text:#day/part/sectionChant#Chant#Mass chant book#Einsielden 121, text##true#lat#
+urn:cts:chant:antiphonary.sg359.text:#feast,section,part#Chant#Mass chant book#St. Gallen codex359, text##true#lat
+
+#!ctsdata
+urn:cts:chant:antiphonary.einsiedeln121.pitches:11.introit.1#High Neutral Neutral High Low Neutral Neutral Neutral Neutral High Low High Low Neutral Neutral High Low High Low Neutral Neutral High Neutral Neutral High Low High Neutral High Low Neutral Neutral Neutral Neutral High Low High High Low Neutral Neutral Neutral High Low High Low High Low Neutral Neutral Neutral High Low High Low High Low High Low Neutral High Low Neutral Neutral High Low Neutral Neutral Neutral Neutral Neutral Neutral Neutral Neutral Neutral High Low High Low High Low High Neutral Neutral Neutral Neutral High Low Neutral High Low Neutral Neutral High Low Neutral
+urn:cts:chant:antiphonary.einsiedeln121.pitches:11.introit.2#Neutral High Neutral Neutral Neutral Neutral High Neutral Neutral High Low High High Low High Neutral Neutral Neutral Neutral Neutral Neutral Neutral Neutral High Low Neutral
+urn:cts:chant:antiphonary.einsiedeln121.pitches:11.introit.3#Neutral Neutral
+urn:cts:chant:antiphonary.einsiedeln121.neumes:11.introit.1#k p pes k p f virga f torculus punctum tristropha s c porrectus flexus m virga k torculus c clivis punctum virga pes virga virga porrectus torculus v f punctum virga virga trigon pes c clivis punctum punctum punctum p k porrectus flexus k v clivis tristropha v clivis c porrectus flexus clivis k torculus c virga f torculus punctum tristropha punctum tristropha f torculus t p clivis clivis t pes virga k x virga distropha clivis f torculus punctum t torculus punctum
+urn:cts:chant:antiphonary.einsiedeln121.neumes:11.introit.2#virga t pes virga virga virga virga pes virga virga clivis pes clivis pes virga virga quilisma virga punctum tristropha clivis virga
+urn:cts:chant:antiphonary.einsiedeln121.neumes:11.introit.3#punctum punctum t c
+urn:cts:chant:antiphonary.einsiedeln121.text:11.introit.1#Puer natus est nobis et filius datus est nobis cuius imperium super humerum eius et uocabitur nomen eius magni consilii angelus.
+urn:cts:chant:antiphonary.einsiedeln121.text:11.introit.2#Cantate doioaiuouu quia iaiiaei
+urn:cts:chant:antiphonary.einsiedeln121.text:11.introit.3#Uiderunt omnes fines terrae salutare dei nostri iubilate deo  omnis terra
+urn:cts:chant:antiphonary.einsiedeln121.text:11.introit.r1#V
+urn:cts:chant:antiphonary.sg359.text:11.introit.1#Puer natus est nobis.
+urn:cts:chant:antiphonary.sg359.text:11.introit.2#Cantate dno
+urn:cts:chant:antiphonary.sg359.text:11.introit.3#Uiderunt omnes fines terrae salutare dei nostri iubilate deo  omnis terra
+urn:cts:chant:antiphonary.sg359.text:11.introit.r1#V

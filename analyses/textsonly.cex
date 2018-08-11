@@ -1,0 +1,22 @@
+#!cexversion
+1.0
+
+#!citelibrary
+name#demo
+urn#urn:cite2:chant:demo.v1:einseiedlen
+license#CC Share Alike.  For details, see more info.
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online#lang
+urn:cts:chant:chant.mass.einsiedeln121text:#day/part/sectionChant#Chant#Mass chant book#Einsielden 121, text##true#lat#
+urn:cts:chant:chant.mass.sg359text:#feast,section,part#Chant#Mass chant book#St. Gallen codex359, text##true#lat
+
+#!ctsdata
+urn:cts:chant:chant.mass.einsiedeln121text:11.introit.1#Puer natus est nobis et filius datus est nobis cuius imperium super humerum eius et uocabitur nomen eius magni consilii angelus.
+urn:cts:chant:chant.mass.einsiedeln121text:11.introit.2#Cantate doioaiuouu quia iaiiaei
+urn:cts:chant:chant.mass.einsiedeln121text:11.introit.3#Uiderunt omnes fines terrae salutare dei nostri iubilate deo  omnis terra
+urn:cts:chant:chant.mass.einsiedeln121text:11.introit.r1#V
+urn:cts:chant:chant.mass.sg359text:11.introit.1#Puer natus est nobis.
+urn:cts:chant:chant.mass.sg359text:11.introit.2#Cantate dno
+urn:cts:chant:chant.mass.sg359text:11.introit.3#Uiderunt omnes fines terrae salutare dei nostri iubilate deo  omnis terra
+urn:cts:chant:chant.mass.sg359text:11.introit.r1#V
