@@ -45,3 +45,8 @@ def nameNeumes(cn: CitableNode) : CitableNode ={
 }
 
 val namedCorpus = Corpus(plainText.map(nameNeumes(_)))
+
+import java.io.PrintWriter
+def printNamed = {
+  new java.io.PrintWriter("named-neumes.cex"){ write(namedCorpus.cex("#")); close;}
+}

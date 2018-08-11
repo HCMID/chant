@@ -24,9 +24,11 @@ def alignedWords (psg: String = "11.introit.1") = {
 }
 
 def alignVertical(psg: String = "11.introit.1") = {
+  //give yourself a little space...
+  println("\n\n")
   val words = alignedWords(psg)
   for (wd <- words) {
-    println("\t"+ wd.word + "\n" + wd.interleave() + "\n")
+    println("\t"+ wd.syllables.map(_.textString).mkString("-") + "\n" + wd.interleave() + "\n")
   }
 }
 
