@@ -48,9 +48,12 @@ def formatLine(s: String) : String = {
 val base = f.getName.replaceAll(".cex", "")
 
 val lines = Source.fromFile(f).getLines.toVector.drop(1)
-val header = "| Neume number | Neume | Illustration    | \n |:---------|:---------|:---------|\n"
+val header = "| Neume number | Neume | Illustration    | \n|:---------|:---------|:---------|\n"
 val markdown = for (l <- lines) yield {
   formatLine(l)
 }
-val viewFile = new File("views/" + base + ".md")
-new PrintWriter(viewFile) { write(header + markdown.filter(_.nonEmpty).mkString("\n")); close }
+
+def printTable(outfile: String) = {
+  val viewFile = new File("views/" + outfile + ".md")
+  new PrintWriter(viewFile) { write(header + markdown.filter(_.nonEmpty).mkString("\n")); close }
+}
