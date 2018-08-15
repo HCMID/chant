@@ -11,7 +11,11 @@ All content in this repository is licensed under the Creative Commons Attributio
 
 
 
-## Quick reference
+## Quick reference for editors
+
+### Neumes
+
+When editing neumes, you can use this [neume picker](views/neume-picker.html) rather than keyboarding long sequences of numbers.
 
 ### Einsiedeln, Stiftsbibliothek, Codex 121
 

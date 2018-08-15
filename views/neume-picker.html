@@ -11,6 +11,11 @@
     line-height: 1.5;
   }
   body {
+    max-width: 38rem;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    margin-left:  auto;
+    margin-right: auto;
     color: #515151;
     background-color: #fff;
     -webkit-text-size-adjust: 100%;
@@ -37,11 +42,11 @@
 
 <body>
 
-<h1>Neume picker</h1>
+<h1>Virgapes neume picker</h1>
 
 <p>Click on an entry in the table of neuemes to copy its ID to your clipboard.
 </p>
-<table id="table"><tr><th>Virgapes vaule</th><th>Name</th><th>Example</th></tr>
+<table id="table"><tr><th>Virgapes ID</th><th>Name</th><th>Example</th></tr>
 <tr> <td>0.1.0.0</td><td>Significative Letter A</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.619,0.7712,0.016,0.0128&CVT=JPEG"/></td> </tr>
 <tr> <td>0.3.0.0</td><td>Significative Letter C</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.85,0.3061,0.01,0.009&CVT=JPEG"/></td> </tr>
 <tr> <td>0.5.0.0</td><td>Significative Letter E</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.794,0.054,0.019,0.0165&CVT=JPEG"/></td> </tr>
@@ -72,7 +77,6 @@
 <tr> <td>4.1.0.0</td><td>Porrectus Flexus</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.859,0.3046,0.034,0.0143&CVT=JPEG"/></td> </tr>
 <tr> <td>4.1.1.0</td><td>Porrectus Flexus with episema</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.421,0.7299,0.035,0.0195&CVT=JPEG"/></td> </tr>
 </table>
-<input type="button" name="OK" class="ok" value="OK"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script>
 $("#table tr").click(function(){
