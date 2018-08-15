@@ -1,0 +1,88 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Select neume from table</title>
+  <style media="screen" type="text/css">
+  .selected {
+    background-color: #66F;
+    color: #FFF;
+  }
+  </style>
+  <link rel="stylesheet" href="../docs/public/css/poole.css">
+</head>
+
+<body>
+
+<h1>Neume picker</h1>
+
+<p>Click on an entry in the table of neuemes to copy its ID to your clipboard.
+</p>
+<table id="table"><tr><th>Virgapes vaule</th><th>Name</th><th>Example</th></tr>
+<tr> <td>0.1.0.0</td><td>Significative Letter A</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.619,0.7712,0.016,0.0128&CVT=JPEG"/></td> </tr>
+<tr> <td>0.3.0.0</td><td>Significative Letter C</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.85,0.3061,0.01,0.009&CVT=JPEG"/></td> </tr>
+<tr> <td>0.5.0.0</td><td>Significative Letter E</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.794,0.054,0.019,0.0165&CVT=JPEG"/></td> </tr>
+<tr> <td>0.7.0.0</td><td>Significative Letter I</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.3617,0.8154,0.009647,0.007543&CVT=JPEG"/></td> </tr>
+<tr> <td>0.10.0.0</td><td>Significative Letter M</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.3719,0.8147,0.01663,0.009236&CVT=JPEG"/></td> </tr>
+<tr> <td>0.11.0.0</td><td>Significative Letter P</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.835,0.3068,0.014,0.0165&CVT=JPEG"/></td> </tr>
+<tr> <td>0.12.0.0</td><td>Significative Letter S</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.475,0.5431,0.019,0.015&CVT=JPEG"/></td> </tr>
+<tr> <td>0.13.0.0</td><td>Significative Letter T</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.518,0.4276,0.026,0.0113&CVT=JPEG"/></td> </tr>
+<tr> <td>0.15.0.0</td><td>Significative Letter X</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.658,0.6744,0.018,0.012&CVT=JPEG"/></td> </tr>
+<tr> <td>1.1.0.0</td><td>Virga</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.821,0.0473,0.02,0.021&CVT=JPEG"/></td> </tr>
+<tr> <td>1.1.1.0</td><td>Virga with episema</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.802,0.3706,0.02,0.018&CVT=JPEG"/></td> </tr>
+<tr> <td>1.1.0.1</td><td>Virga with liquescence</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.42,0.6174,0.021,0.0165&CVT=JPEG"/></td> </tr>
+<tr> <td>1.2.0.0</td><td>Punctum</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.71,0.3818,0.01,0.0068&CVT=JPEG"/></td> </tr>
+<tr> <td>1.4.0.0</td><td>Quilisma</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.605,0.7419,0.024,0.0128&CVT=JPEG"/></td> </tr>
+<tr> <td>1.4.0.1</td><td>Quilisma with liquescence</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.788,0.5566,0.033,0.021&CVT=JPEG"/></td> </tr>
+<tr> <td>2.1.0.0</td><td>Clivis</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.666,0.3766,0.021,0.0143&CVT=JPEG"/></td> </tr>
+<tr> <td>2.1.1.0</td><td>Clivis with episema</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.461,0.4966,0.033,0.018&CVT=JPEG"/></td> </tr>
+<tr> <td>2.2.0.0</td><td>Pes</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.71,0.0465,0.04,0.0188&CVT=JPEG"/></td> </tr>
+<tr> <td>2.3.0.0</td><td>Distropha</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.72,0.5656,0.02,0.0128&CVT=JPEG"/></td> </tr>
+<tr> <td>3.1.0.0</td><td>Porrectus</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.462,0.4276,0.037,0.0188&CVT=JPEG"/></td> </tr>
+<tr> <td>3.2.0.0</td><td>Torculus</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.78,0.1418,0.034,0.0188&CVT=JPEG"/></td> </tr>
+<tr> <td>3.3.0.0</td><td>Climacus</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.709,0.6759,0.027,0.0173&CVT=JPEG"/></td> </tr>
+<tr> <td>3.3.1.0</td><td>Climacus with episema</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.634,0.6767,0.036,0.018&CVT=JPEG"/></td> </tr>
+<tr> <td>3.4.0.0</td><td>Scandicus</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.628,0.7464,0.033,0.027&CVT=JPEG"/></td> </tr>
+<tr> <td>3.5.0.0</td><td>Tristropha</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.644,0.3046,0.037,0.0128&CVT=JPEG"/></td> </tr>
+<tr> <td>3.5.1.0</td><td>Tristropha with episema</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.674,0.6797,0.033,0.0128&CVT=JPEG"/></td> </tr>
+<tr> <td>3.7.0.0</td><td>Trigon</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.699,0.4434,0.019,0.0165&CVT=JPEG"/></td> </tr>
+<tr> <td>4.1.0.0</td><td>Porrectus Flexus</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.859,0.3046,0.034,0.0143&CVT=JPEG"/></td> </tr>
+<tr> <td>4.1.1.0</td><td>Porrectus Flexus with episema</td><td><img src="http://www.homermultitext.org/iipsrv?OBJ=IIP,1.0&FIF=/project/homer/pyramidal/deepzoom/ecod/einsiedeln121imgs/v1/sbe_0121_030.tif&WID=100&RGN=0.421,0.7299,0.035,0.0195&CVT=JPEG"/></td> </tr>
+</table>
+<input type="button" name="OK" class="ok" value="OK"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+$("#table tr").click(function(){
+   $(this).addClass('selected').siblings().removeClass('selected');
+   var idValue=$(this).find('td:first').html();
+      var textArea = document.createElement("textarea");
+      textArea.style.position = 'fixed';
+      textArea.style.top = 0;
+      textArea.style.left = 0;
+      textArea.style.width = '2em';
+      textArea.style.height = '2em';
+      textArea.style.padding = 0;
+      textArea.style.border = 'none';
+      textArea.style.outline = 'none';
+      textArea.style.boxShadow = 'none';
+      textArea.style.background = 'transparent';
+      textArea.value = idValue;
+      document.body.appendChild(textArea);
+      textArea.select();
+      try {
+        var successful = document.execCommand('copy');
+        var msg = successful ? 'successful' : 'unsuccessful';
+        console.log('Copying text command was ' + msg);
+      } catch (err) {
+        console.log('Oops, unable to copy');
+      }
+      document.body.removeChild(textArea);
+});
+
+$('.ok').on('click', function(e){
+    alert($("#table tr.selected td:first").html());
+});
+</script>
+</body>
+</html>
