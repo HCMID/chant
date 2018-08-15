@@ -15,7 +15,7 @@ All content in this repository is licensed under the Creative Commons Attributio
 
 ### Neumes
 
-When editing neumes, you can use this [neume picker](views/neume-picker.html) rather than keyboarding long sequences of numbers.
+When editing neumes, you can use the [Virgapes neume picker app](http://hcmid.github.io/chant/neume-picker) rather than keyboarding long sequences of numbers.
 
 ### Einsiedeln, Stiftsbibliothek, Codex 121
 
@@ -30,7 +30,6 @@ Other data sets:
 
  -  Feast days: `urn:cts:chants:feasts:`
 
-Neumes?
 
 
 ### St. Gallen, Stiftsbibliothek, Cod. Sang. 359
@@ -53,9 +52,3 @@ Neumes?
 -   Collection of images:  `urn:cite2:ecod:codsang339imgs.v1:`
 -   Pages of the manuscript: `urn:cite2:ecod:sg339pages.v1:`
 -   The text of the antiphonary:  `??`
-
-
-
-Other data sets:
-
-Neumes?
