@@ -23,20 +23,52 @@ val header = """
 <head>
   <title>Select neume from table</title>
   <style media="screen" type="text/css">
+  html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  body {
+    max-width: 38rem;
+    padding-left:  1rem;
+    padding-right: 1rem;
+    margin-left:  auto;
+    margin-right: auto;
+    color: #515151;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+  }
+  table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+  }
   .selected {
     background-color: #66F;
     color: #FFF;
   }
+
   </style>
 </head>
 
 <body>
-<table id="table"><tr><th>Virgapes vaule</th><th>Name</th><th>Example</th></tr>
+
+<h1>Virgapes neume picker</h1>
+
+<p>Click on an entry in the table of neuemes to copy its ID to your clipboard.
+</p>
+<table id="table"><tr><th>Virgapes ID</th><th>Name</th><th>Example</th></tr>
 """
 
 val trail = """
 </table>
-<input type="button" name="OK" class="ok" value="OK"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script>
 $("#table tr").click(function(){
@@ -64,7 +96,6 @@ $("#table tr").click(function(){
         console.log('Oops, unable to copy');
       }
       document.body.removeChild(textArea);
-      alert('Copied value ' + idValue);
 });
 
 $('.ok').on('click', function(e){
