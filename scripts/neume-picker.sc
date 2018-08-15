@@ -136,7 +136,7 @@ val htmlLines = for (l <- srcLines) yield {
   formatLine(l)
 }
 
-def printTable(outfile: String) = {
-  val viewFile = new File("views/" + outfile + ".html")
+def printTable = {
+  val viewFile = new File("docs/neume-picker.html")
   new PrintWriter(viewFile) { write(header + htmlLines.filter(_.nonEmpty).mkString("\n") + trail); close }
 }
