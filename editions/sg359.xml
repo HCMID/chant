@@ -18,10 +18,19 @@
   </teiHeader>
   <text>
     <body>
-      <div n="11">
-        <div n="introit">
-          <ab n="1">Puer natus est nobis.</ab>
-          <ab n="2">Cantate <choice><abbr>dno</abbr><expan>domino</expan></choice></ab>
+      <div n="h011">
+
+          <div n="h01">
+            <ab n="rubric">A</ab>
+            <ab n="1">Puer natus est nobis.</ab>
+          </div>
+          <div n="h02">
+            <ab n="rubric">Ps.</ab>
+            <ab n="1">
+            Cantate <choice><abbr>dno</abbr><expan>domino</expan></choice></ab>
+          </div>
+
+          <!-- EVERYTHING AFTER THIS NEEDS TO BE REGULARIZED TO 2018-2019 CONVENTIONS.-->
           <ab n="3">Uiderunt omnes fines terrae salutare dei nostri
           <w>iubil<unclear>ate</unclear></w> deo <w><unclear>
           o</unclear>mnis</w> terra</ab>
@@ -55,7 +64,7 @@
         </div
 
       </div>-->
-      </div>
+
       <!--
       <div n="12">
         <div n="SECTIONNEEDED">
