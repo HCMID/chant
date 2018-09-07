@@ -1,0 +1,17 @@
+#!cexversion
+1.0
+
+#!citelibrary
+name#demo
+urn#urn:cite2:cex:demo.2017_1:million
+license#CC Share Alike.  For details, see more info.
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:#day/part/sectionChant#Chant#Einsielden 121#Neumes XML##true#lat#
+
+
+#!ctsdata
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:11.introit.1#k p pes k p f virga f torculus punctum tristropha s c porrectus flexus m virga k torculus c clivis punctum virga pes virga virga porrectus torculus v f punctum virga virga trigon pes c clivis punctum punctum punctum p k porrectus flexus k v clivis tristropha v clivis c porrectus flexus clivis k torculus c virga f torculus punctum tristropha punctum tristropha f torculus t p clivis clivis t pes virga k x virga distropha clivis f torculus punctum t torculus punctum
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:11.introit.2#virga t pes virga virga virga virga pes virga virga clivis pes clivis pes virga virga quilisma virga punctum tristropha clivis virga
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:11.introit.3#punctum punctum t c

@@ -1,0 +1,21 @@
+Passage: 11.introit.1
+pu-er na-tus est no-bis et fil-ius da-tus est no-bis cu-ius im-per-ium su-per hu-me-ru-me-ius et uo-ca-bi-tur no-men e-ius mag-ni con-si-li-i an-ge-lus .
+SYLLABLES of text:  46
+NEUMES 81
+Degree of melisma: 1.8
+
+
+
+Passage: 11.introit.2
+can-ta-te do-i-o-a-iu-o-u-u qui-a ia-i-iae-i
+SYLLABLES of text:  17
+NEUMES 22
+Degree of melisma: 1.3
+
+
+
+Passage: 11.introit.3
+ui-de-runt om-nes fi-nes ter-rae sa-lu-ta-re dei nost-ri iu-bil de-o mnis ter-ra
+SYLLABLES of text:  23
+NEUMES 4
+Degree of melisma: 0.2

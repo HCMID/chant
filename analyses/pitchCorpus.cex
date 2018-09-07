@@ -1,0 +1,17 @@
+#!cexversion
+1.0
+
+#!citelibrary
+name#demo
+urn#urn:cite2:cex:demo.2017_1:million
+license#CC Share Alike.  For details, see more info.
+
+#!ctscatalog
+urn#citationScheme#groupName#workTitle#versionLabel#exemplarLabel#online
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:#day/part/sectionChant#Chant#Einsielden 121#Neumes XML##true#lat#
+
+
+#!ctsdata
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:11.introit.1#High Neutral Neutral High Low Neutral Neutral Neutral Neutral High Low High Low Neutral Neutral High Low High Low Neutral Neutral High Neutral Neutral High Low High Neutral High Low Neutral Neutral Neutral Neutral High Low High High Low Neutral Neutral Neutral High Low High Low High Low Neutral Neutral Neutral High Low High Low High Low High Low Neutral High Low Neutral Neutral High Low Neutral Neutral Neutral Neutral Neutral Neutral Neutral Neutral Neutral High Low High Low High Low High Neutral Neutral Neutral Neutral High Low Neutral High Low Neutral Neutral High Low Neutral
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:11.introit.2#Neutral High Neutral Neutral Neutral Neutral High Neutral Neutral High Low High High Low High Neutral Neutral Neutral Neutral Neutral Neutral Neutral Neutral High Low Neutral
+urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:11.introit.3#Neutral Neutral
