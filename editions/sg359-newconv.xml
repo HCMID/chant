@@ -21,9 +21,75 @@
   </teiHeader>
   <text>
     <body>
+
+      <div n="h009">
+        <div n="h00">
+          <ab n="1">IN PRIMO GALLI CANTU</ab>
+        </div>
+        <div n="h01">
+          <ab n="rubric">A</ab>
+          <ab n="1"><w><abbr>Dns</abbr><expan>Dominis</expan></w> dixit ad me.</ab>
+        </div>
+        <div n="h04">
+          <ab n="rubric">RG</ab>
+          <ab n="1">Tecum principium in die virtutis tuae in splendoribus
+            sanctorum ex utero ante luciferum genui te.</ab>
+        </div>
+        <div n="h05">
+          <ab n="rubric">V</ab>
+          <ab n="1">Dixit dominus domino meo sede adextris meis donec ponam
+            inimicos tuos scabellum pedum tuorum.</ab>
+        </div>
+        <div n="h06">
+          <ab n="1">Alleluia</ab>
+          <ab n="2">Dominus dixit ad me filius meus estu ego hodie genui te.</ab>
+        </div>
+        <div n="h07">
+          <ab n="rubric">Of</ab>
+          <ab n="1">Laetuntur caeli</ab>
+        </div>
+        <div n="h11">
+          <ab n="rubric">ADCO</ab>
+          <ab n="1">In splendorobus scorum</ab>
+        </div>
+      </div>
+
+      <div n="h010">
+        <div n="h00">
+          <ab n="1">IN PRIMO DILUCULO.</ab>
+        </div>
+        <div n="h01">
+          <ab n="rubric">A</ab>
+          <ab n="1">Lux fulgebut hodie.</ab>
+        </div>
+        <div n="h04">
+          <ab n="rubric">RG</ab>
+          <ab n="1">Benedictus qui uenit in nomine domini deus dominus
+            <w><abbr>&amp;</abbr><expan>et</expan></w> il luxit nobis.</ab>
+        </div>
+        <div n="h05">
+          <ab n="rubric">V</ab>
+          <ab n="1">A domino sactum est <w><abbr>&amp;</abbr><expan>et</expan></w>
+          est mirabile in oculis nostris.</ab>
+        </div>
+        <div n="h08">
+          <ab n="1">Alleluia</ab>
+          <ab n="2">Dominus regnauit decorem induit induit dominus fortitudine
+            <w><abbr>&amp;</abbr><expan>et</expan></w> precinxit se virtute.</ab>
+        </div>
+        <div n="h07">
+          <ab n="rubric">AD Of</ab>
+          <ab n="1"><w><abbr>Ds</abbr><expan>Dominus</expan></w> enim firmauit</ab>
+        </div>
+        <div n="h10">
+          <ab n="rubric">ADCO</ab>
+          <ab n="1">Exulta filia</ab>
+        </div>
+      </div>
+
       <div n="h011">
           <div n="h00">
-            <ab n="rubric">IN DIE NATIUITATIS
+            <ab n="1">IN DIE NATIUITATIS
               <w><abbr>DNI</abbr><expan>DOMINI</expan></w> STA AD SCM PETRUM.</ab>
           </div>
           <div n="h01">
@@ -40,7 +106,7 @@
             <ab n="1">Notum fecit</ab>
           </div>
           <div n="h04">
-            <ab n="rubric">RC</ab>
+            <ab n="rubric">RG</ab>
             <ab n="1">Viderunt omnes fines terrae salutare dei nostri iubilate
               deo omnis terra</ab>
           </div>
@@ -64,77 +130,45 @@
             <ab n="1">Viderunt <w><abbr>oms</abbr><expan>omnis</expan></w>.</ab>
           </div>
         </div>
+
         <div n="h012">
           <div n="h00">
-            <ab n=""></ab></div></div>
+            <ab n="1">INNATI S STEPHANI</ab>
+          </div>
+          <div n="h01">
+            <ab n="rubric">A</ab>
+            <ab n="1">Et enim sederunt principes.</ab>
+          </div>
+          <div n="h04">
+            <ab n="rubric">RG</ab>
+            <ab n="1">Sederunt principes <w><abbr>&amp;</abbr><expan>et</expan></w>
+            aduerson me loquebantur <w><abbr>&amp;</abbr><expan>et</expan></w> iniqui
+            perfectum sunt me.</ab>
+          </div>
+          <div n="h05">
+            <ab n="rubric">V</ab>
+            <ab n="1">Adiua me domine deus meus saluum me sac propter
+              misericordiam tuam</ab>
+          </div>
+          <div n="h06">
+            <ab n="1">Alleluia</ab>
+            <ab n="2">Video caelos apertos <w><abbr>&amp;</abbr><expan>et</expan></w>
+            IHCYM stantem adextris virtutis dei.</ab>
+          </div>
+          <div n="h07">
+            <ab n="rubric">Of</ab>
+            <ab n="1">In virtute tua d.</ab>
+          </div>
 
-          <!---
-          <ab n="4">Notum fecit dominus salutare suum ante conspectum
-          gentium reuelauit iustitiam suam </ab>
-          <ab n="5">alleluia </ab>
-          <ab n="6">Dies sanctificatus inluxit nobis venite
-          gentes et adorate dominum quia hodie discendit
-          lux magna super terram</ab>
-          <ab type="rubric" n="r2"><choice><abbr>Of</abbr>
-          <expan>Offertorium</expan></choice></ab>
-          <ab n="7">Tui sunt caeli et tua est terra orbem terrarum
-          et <w>plenitudi<unclear>nem</uclear></w> <unclear>eius</unclear> tu fundasti
-          <choice><sic>iustitia</sic><corr>iustitiam</corr>
-        </choice> et iudicium preparatio sedis tuae</ab>
-          <ab type ="rubric" n="r3">VR</ab>
-          <ab n="8"> Magnus et metuendus super omnes qui in circuitu eius sunt tu
-            dominaris potestatis maris motum autem fluctuum eius tu
-            mitigas IUSTITIA </ab>
-          <ab type = "rubric" n="r4">V</ab>
-          <ab n="9"> Misericordia et uaritas praeibunt ante saciem tuam et in bene placito tuo exaltabitur cornu nostrum </ab>
-          <ab type = "rubric" n="r5">V</ab>
-          <ab n="10"> Tu humiliasti sicut uulneratum
-            superbum et in uirtute brachii
-            tui dispersisti inimicos tuos firmetur manus tua et exaltetur dextera tua domine </ab>
-          <ab type = "rubric" n="r6">CO</ab>
-          <ab n="11"> Uiderunt omnes sines fines terra salutare dei nostri </ab>
-        </div
+<!-- not in h012
+      see 148.2@01 Elegerunt apostoli -->
 
-      </div>-->
-
-      <!--
-      <div n="12">
-        <div n="SECTIONNEEDED">
-          <ab type = "rubric" n="r1"> In nat sci sancti Stephani</ab>
-
-          <ab n="1"> Et enim sederunt principes et adversum me loquebantur et iniqui
-            persecuti sunt me ad iuua me domine deus meus quia seruus tuus exercebatur in tuis iustificatioribus </ab>
-          <ab type = "rubric" n="r2">PS</ab>
-          <ab n="2">Beati imauaiiiaiaiiain eeoii</ab>
-          <ab type = "rubric" n="r3">RG</ab>
-          <ab n="3">Sederunt principes et aduersum me loquebantur et iniqui
-          persecuti sunt me</ab>
-          <ab type = "rubric" n="r4">VR</ab>
-          <ab n="4">Adiuua me domine
-          deus meus saluum me fac propter misericordiam tuam</ab>
-          <ab n="5">Alleluia</ab>
-          <ab n="6">dei</ab>
-          <ab n="7">Uideo caelos apertos et iesum
-          stantem a dextris virtutis</ab>
-          <ab type = "rubric" n="r5">OF</ab>
-          <ab n="8">In virtute tua domine laetabitur
-          iustus et super salutare tuum exultabit uehementer desiderium animae eius tribuisti
-          </ab>
-          <ab type = "rubric" n="r6">V</ab>
-          <ab n="9">Vitam peciit et tribuisti ei longitudinem dierum in seculum saeculi Desio
-          </ab>
-          <ab type = "rubric" n="r7">V</ab>
-          <ab n="10">Magna est gloria eius in salutari
-          tuo magna est gloria eius in salutari tuo glori
-          am et magnum decorem impones super eum Desici</ab>
-          <ab type = "rubric" n="r8">Of</ab>
-          <ab n="11">
-          Ei egerunt apostoli stephanum
-          levitam plenum fide et spiritu sancto quem lapidauerunt iudei orantem et dicentem
-          domine iesu accipe spiritum</ab>
+          <div n="x148-2.01">
+            <ab n="rubric">Of</ab>
+            <ab n="1">Elegerunt apti</ab>
+          </div>
         </div>
-      </div>
-   -->
+
     </body>
   </text>
 </TEI>
