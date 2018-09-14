@@ -18,10 +18,10 @@
   </teiHeader>
   <text>
     <body>
-      
+
       <div n="h011">
         <div n="h01">
-          <ab n="1">Puer natus est nobis et filius datus est nobis cuius imperium super 
+          <ab n="1">Puer natus est nobis et filius datus est nobis cuius imperium super
             humerum eius et uocabitur nomen eius magni consilii angelus.</ab>
         </div>
         <div n="h02">
@@ -33,33 +33,33 @@
         </div>
         <div n="h05">
           <ab n="rubric">V</ab>
-          <ab n="1">Notum fecit dominus salutare suum ante conspectum gentium re uela uit iustitiam 
+          <ab n="1">Notum fecit dominus salutare suum ante conspectum gentium re uela uit iustitiam
             suam</ab>
         </div>
         <div n="h06">
           <ab n="1">Alleluia</ab>
-          <ab n="2">Dies sanctificatus inluxit nobis venite gentes et adorate dominum quia hodie 
+          <ab n="2">Dies sanctificatus inluxit nobis venite gentes et adorate dominum quia hodie
             discendit lux magna super terram</ab>
         </div>
         <div n="h07">
           <ab n="rubric"><w><abbr>Of</abbr><expan>Offertorium</expan></w></ab>
           <ab n="7">Tui sunt caeli et tua est terra orbem terrarum et plenitudi<unclear>nem eius</unclear>
-            tu fundasti <choice><sic>iustitia</sic><corr>iustitiam</corr></choice> et iudicium 
+            tu fundasti <choice><sic>iustitia</sic><corr>iustitiam</corr></choice> et iudicium
             preparatio sedis tuae</ab>
-        </div> 
-        <div n="h08">  
-          <ab n="rubric">VR</ab>
+        </div>
+        <div n="h08">
+          <ab n="rubric"><abbr>VR</abbr></ab>
           <ab n="1"> Magnus et metuendus super omnes qui incircuitu eius sunt tu domina ris potestatis
             maris motum autem fluctuum eius tu mitigas IUSTITIA</ab>
         </div>
         <div n="h09">
           <ab type = "rubric">V</ab>
-          <ab n="1"> Misericordia et ueritas praeibunt ante saciem tuam et in 
+          <ab n="1"> Misericordia et ueritas praeibunt ante saciem tuam et in
             <choice><sic>beneplacito</sic><corr>bene placito</corr></choice> tuo exaltabitur cornu nostrum</ab>
         </div>
         <div n="h10">
           <ab n= "rubric">V</ab>
-          <ab n="1"> Tu humiliasti sicut uulneratum superbum et inuirtute brachii tui dispersisti inimicos 
+          <ab n="1"> Tu humiliasti sicut uulneratum superbum et inuirtute brachii tui dispersisti inimicos
             tuos firmetur manus tua et exaltetur dextera tua domine</ab>
         </div>
         <div n="h11">
@@ -67,13 +67,13 @@
           <ab n="1"> Uiderunt omnes sines fines terra salutare dei nostri</ab>
         </div>
       </div>
-      
+
       <div n="h012">
         <div n="h00">
           <ab n="rubric"> In <w><abbr>nat</abbr><expan>natus</expan></w> <w><abbr>sci</abbr><expan>sancti</expan></w> Stephani</ab>
         </div>
         <div n="h01">
-          <ab n="1"> Et enim sederunt principes et adversum me loquebantur et iniqui perfecuti sunt me ad iuua me 
+          <ab n="1"> Et enim sederunt principes et adversum me loquebantur et iniqui perfecuti sunt me ad iuua me
             domine deus meus quia seruus tuus exercebatur intuis iustificatioribus</ab>
         </div>
         <div n="h02">
@@ -96,7 +96,7 @@
         </div>
         <div n="h07">
           <ab n= "rubric">OF</ab>
-          <ab n="1">In virtute tua domine laetabitur iustus et super salutare tuum exultabit uehementer 
+          <ab n="1">In virtute tua domine laetabitur iustus et super salutare tuum exultabit uehementer
             desiderium animae eius tribuistie</ab>
         </div>
         <div n="h08">
@@ -108,17 +108,17 @@
           <ab n="1">Magna est gloria eius in salutari tuo magna est gloria eius in salutari tuo glori
             am et magnum decorem impones super eum Desici</ab>
         </div>
-        
+
 <!-- not in h012
       see 148.2@01 Elegerunt apostoli -->
-        
+
         <div n="h148.2-01">
           <ab n="rubric">Of</ab>
-          <ab n="1">Ei egerunt apostoli stephanum levitam plenum fide et spiritu sancto quem lapidauerunt 
+          <ab n="1">Ei egerunt apostoli stephanum levitam plenum fide et spiritu sancto quem lapidauerunt
             iudei orantem et dicentem domine iesu accipe spiritum</ab>
         </div>
       </div>
-      
+
     </body>
   </text>
 </TEI>
