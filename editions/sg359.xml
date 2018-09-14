@@ -1,3 +1,4 @@
+<<<<<<< current
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
@@ -111,3 +112,145 @@
     </body>
   </text>
 </TEI>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cantatorium: St. Gallen 359</title>
+        <editor>Toni Armstrong</editor>
+      </titleStmt>
+      <editionStmt>
+        <p>Original diplomatic edition of St. Gallen 359</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Digitally published by HC MID</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Directly edited from images</p>
+        <p>St. Gallen, Stiftsbibliothek, Cod. Sang. 359
+          – Cantatorium (https://www.e-codices.ch/en/list/one/csg/0359)</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="h011">
+          <div n="h00">
+            <ab n="rubric">IN DIE NATIUITATIS
+              <w><abbr>DNI</abbr><expan>DOMINI</expan></w> STA AD SCM PETRUM.</ab>
+          </div>
+          <div n="h01">
+            <ab n="rubric">A</ab>
+            <ab n="1">Puer natus est nobis.</ab>
+          </div>
+          <div n="h02">
+            <ab n="rubric">Ps.</ab>
+            <ab n="1">
+            Cantate <w><abbr>dno</abbr><expan>domino</expan></w> ii</ab>
+          </div>
+          <div n="h03">
+            <ab n="rubric">ADR.</ab>
+            <ab n="1">Notum fecit</ab>
+          </div>
+          <div n="h04">
+            <ab n="rubric">RC</ab>
+            <ab n="1">Viderunt omnes fines terrae salutare dei nostri iubilate
+              deo omnis terra</ab>
+          </div>
+          <div n="h05">
+            <ab n="rubric">V</ab>
+            <ab n="1">Notum fecit dominus salutare suum ante cospectum gentium
+              reuelauit iustitiam suam.</ab>
+          </div>
+          <div n="h06">
+            <ab n="1">Alleluia </ab>
+            <ab n="2">Dies santificatus inluxit nobis venite gentes
+              <w><abbr>&amp;</abbr><expan>et</expan></w> adorate dominum quia
+              hodie descendit lux magna super terram.</ab>
+          </div>
+          <div n="h07">
+            <ab n="rubric">Of</ab>
+            <ab n="1">Tui sunt caeli.</ab>
+          </div>
+          <div n="h11">
+            <ab n="rubric">ADCO</ab>
+            <ab n="1">Viderunt <w><abbr>oms</abbr><expan>omnis</expan></w>.</ab>
+          </div>
+        </div>
+        <div n="h012">
+          <div n="h00">
+            <ab n=""></ab></div></div>
+
+          <!---
+          <ab n="4">Notum fecit dominus salutare suum ante conspectum
+          gentium reuelauit iustitiam suam </ab>
+          <ab n="5">alleluia </ab>
+          <ab n="6">Dies sanctificatus inluxit nobis venite
+          gentes et adorate dominum quia hodie discendit
+          lux magna super terram</ab>
+          <ab type="rubric" n="r2"><choice><abbr>Of</abbr>
+          <expan>Offertorium</expan></choice></ab>
+          <ab n="7">Tui sunt caeli et tua est terra orbem terrarum
+          et <w>plenitudi<unclear>nem</uclear></w> <unclear>eius</unclear> tu fundasti
+          <choice><sic>iustitia</sic><corr>iustitiam</corr>
+        </choice> et iudicium preparatio sedis tuae</ab>
+          <ab type ="rubric" n="r3">VR</ab>
+          <ab n="8"> Magnus et metuendus super omnes qui in circuitu eius sunt tu
+            dominaris potestatis maris motum autem fluctuum eius tu
+            mitigas IUSTITIA </ab>
+          <ab type = "rubric" n="r4">V</ab>
+          <ab n="9"> Misericordia et uaritas praeibunt ante saciem tuam et in bene placito tuo exaltabitur cornu nostrum </ab>
+          <ab type = "rubric" n="r5">V</ab>
+          <ab n="10"> Tu humiliasti sicut uulneratum
+            superbum et in uirtute brachii
+            tui dispersisti inimicos tuos firmetur manus tua et exaltetur dextera tua domine </ab>
+          <ab type = "rubric" n="r6">CO</ab>
+          <ab n="11"> Uiderunt omnes sines fines terra salutare dei nostri </ab>
+        </div
+
+      </div>-->
+
+      <!--
+      <div n="12">
+        <div n="SECTIONNEEDED">
+          <ab type = "rubric" n="r1"> In nat sci sancti Stephani</ab>
+
+          <ab n="1"> Et enim sederunt principes et adversum me loquebantur et iniqui
+            persecuti sunt me ad iuua me domine deus meus quia seruus tuus exercebatur in tuis iustificatioribus </ab>
+          <ab type = "rubric" n="r2">PS</ab>
+          <ab n="2">Beati imauaiiiaiaiiain eeoii</ab>
+          <ab type = "rubric" n="r3">RG</ab>
+          <ab n="3">Sederunt principes et aduersum me loquebantur et iniqui
+          persecuti sunt me</ab>
+          <ab type = "rubric" n="r4">VR</ab>
+          <ab n="4">Adiuua me domine
+          deus meus saluum me fac propter misericordiam tuam</ab>
+          <ab n="5">Alleluia</ab>
+          <ab n="6">dei</ab>
+          <ab n="7">Uideo caelos apertos et iesum
+          stantem a dextris virtutis</ab>
+          <ab type = "rubric" n="r5">OF</ab>
+          <ab n="8">In virtute tua domine laetabitur
+          iustus et super salutare tuum exultabit uehementer desiderium animae eius tribuisti
+          </ab>
+          <ab type = "rubric" n="r6">V</ab>
+          <ab n="9">Vitam peciit et tribuisti ei longitudinem dierum in seculum saeculi Desio
+          </ab>
+          <ab type = "rubric" n="r7">V</ab>
+          <ab n="10">Magna est gloria eius in salutari
+          tuo magna est gloria eius in salutari tuo glori
+          am et magnum decorem impones super eum Desici</ab>
+          <ab type = "rubric" n="r8">Of</ab>
+          <ab n="11">
+          Ei egerunt apostoli stephanum
+          levitam plenum fide et spiritu sancto quem lapidauerunt iudei orantem et dicentem
+          domine iesu accipe spiritum</ab>
+        </div>
+      </div>
+   -->
+    </body>
+  </text>
+</TEI>
+>>>>>>> before discard
