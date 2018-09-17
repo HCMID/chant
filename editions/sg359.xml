@@ -27,16 +27,16 @@
           <ab n="1">IN PRIMO GALLI CANTU</ab>
         </div>
         <div n="h01">
-          <ab n="rubric">A</ab>
+          <ab n="rubric"><abbr>A</abbr></ab>
           <ab n="1"><choice><abbr>Dns</abbr><expan>Dominus</expan></choice> dixit ad me.</ab>
         </div>
         <div n="h04">
-          <ab n="rubric">RG</ab>
+          <ab n="rubric"><abbr>RG</abbr></ab>
           <ab n="1">Tecum principium in die virtutis tuae in splendoribus
             sanctorum ex utero ante luciferum genui te.</ab>
         </div>
         <div n="h05">
-          <ab n="rubric">V</ab>
+          <ab n="rubric"><abbr>V</abbr></ab>
           <ab n="1">Dixit dominus domino meo sede adextris meis donec ponam
             inimicos tuos scabellum pedum tuorum.</ab>
         </div>
@@ -45,11 +45,11 @@
           <ab n="2">Dominus dixit ad me filius meus estu ego hodie genui te.</ab>
         </div>
         <div n="h07">
-          <ab n="rubric">Of</ab>
+          <ab n="rubric"><abbr>Of</abbr></ab>
           <ab n="1">Laetuntur caeli</ab>
         </div>
         <div n="h11">
-          <ab n="rubric">ADCO</ab>
+          <ab n="rubric"><abbr>ADCO</abbr></ab>
           <ab n="1">In splendorobus scorum</ab>
         </div>
       </div>
@@ -59,30 +59,29 @@
           <ab n="1">IN PRIMO DILUCULO.</ab>
         </div>
         <div n="h01">
-          <ab n="rubric">A</ab>
+          <ab n="rubric"><abbr>A</abbr></ab>
           <ab n="1">Lux fulgebut hodie.</ab>
         </div>
         <div n="h04">
-          <ab n="rubric">RG</ab>
-          <ab n="1">Benedictus qui uenit in nomine domini deus dominus
-            <w><abbr>&amp;</abbr><expan>et</expan></w> il luxit nobis.</ab>
+          <ab n="rubric"><abbr>RG</abbr></ab>
+          <ab n="1">Benedictus qui uenit in nomine domini deus dominus &amp;
+            il luxit nobis.</ab>
         </div>
         <div n="h05">
-          <ab n="rubric">V</ab>
-          <ab n="1">A domino sactum est <w><abbr>&amp;</abbr><expan>et</expan></w>
-          est mirabile in oculis nostris.</ab>
+          <ab n="rubric"><abbr>V</abbr></ab>
+          <ab n="1">A domino sactum est &amp; est mirabile in oculis nostris.</ab>
         </div>
         <div n="h08">
           <ab n="1">Alleluia</ab>
-          <ab n="2">Dominus regnauit decorem induit induit dominus fortitudine
-            <w><abbr>&amp;</abbr><expan>et</expan></w> precinxit se virtute.</ab>
+          <ab n="2">Dominus regnauit decorem induit induit dominus fortitudine &amp;
+             precinxit se virtute.</ab>
         </div>
         <div n="h07">
-          <ab n="rubric">AD Of</ab>
-          <ab n="1"><w><abbr>Ds</abbr><expan>Dominus</expan></w> enim firmauit</ab>
+          <ab n="rubric"><abbr>AD Of</abbr></ab>
+          <ab n="1"><choice><abbr>Ds</abbr><expan>Dominus</expan></choice> enim firmauit</ab>
         </div>
         <div n="h10">
-          <ab n="rubric">ADCO</ab>
+          <ab n="rubric"><abbr>ADCO</abbr></ab>
           <ab n="1">Exulta filia</ab>
         </div>
       </div>
@@ -90,44 +89,43 @@
       <div n="h011">
         <div n="h00">
           <ab n="1">IN DIE NATIUITATIS
-            <w><abbr>DNI</abbr><expan>DOMINI</expan></w> STA AD SCM PETRUM.</ab>
+            <choice><abbr>DNI</abbr><expan>DOMINI</expan></choice> STA AD SCM PETRUM.</ab>
         </div>
         <div n="h01">
-          <ab n="rubric">A</ab>
+          <ab n="rubric"><abbr>A</abbr></ab>
           <ab n="1">Puer natus est nobis.</ab>
         </div>
         <div n="h02">
-          <ab n="rubric">Ps.</ab>
+          <ab n="rubric"><abbr>Ps.</abbr></ab>
           <ab n="1">
-          Cantate <w><abbr>dno</abbr><expan>domino</expan></w> ii</ab>
+          Cantate <choice><abbr>dno</abbr><expan>domino</expan></choice> ii</ab>
         </div>
         <div n="h03">
-          <ab n="rubric">ADR.</ab>
+          <ab n="rubric"><abbr>ADR.</abbr></ab>
           <ab n="1">Notum fecit</ab>
         </div>
         <div n="h04">
-          <ab n="rubric">RG</ab>
+          <ab n="rubric"><abbr>RG</abbr></ab>
           <ab n="1">Viderunt omnes fines terrae salutare dei nostri iubilate
             deo omnis terra</ab>
         </div>
         <div n="h05">
-          <ab n="rubric">V</ab>
+          <ab n="rubric"><abbr>V</abbr></ab>
           <ab n="1">Notum fecit dominus salutare suum ante cospectum gentium
             reuelauit iustitiam suam.</ab>
         </div>
         <div n="h06">
           <ab n="1">Alleluia </ab>
-          <ab n="2">Dies santificatus inluxit nobis venite gentes
-            <w><abbr>&amp;</abbr><expan>et</expan></w> adorate dominum quia
-            hodie descendit lux magna super terram.</ab>
+          <ab n="2">Dies santificatus inluxit nobis venite gentes &amp; adorate
+            dominum quia hodie descendit lux magna super terram.</ab>
         </div>
         <div n="h07">
-          <ab n="rubric">Of</ab>
+          <ab n="rubric"><abbr>Of</abbr></ab>
           <ab n="1">Tui sunt caeli.</ab>
         </div>
         <div n="h11">
-          <ab n="rubric">ADCO</ab>
-          <ab n="1">Viderunt <w><abbr>oms</abbr><expan>omnis</expan></w>.</ab>
+          <ab n="rubric"><abbr>ADCO</abbr></ab>
+          <ab n="1">Viderunt <choice><abbr>oms</abbr><expan>omnis</expan></choice>.</ab>
         </div>
       </div>
 
@@ -136,35 +134,32 @@
           <ab n="1">INNATI S STEPHANI</ab>
         </div>
         <div n="h01">
-          <ab n="rubric">A</ab>
+          <ab n="rubric"><abbr>A</abbr></ab>
           <ab n="1">Et enim sederunt principes.</ab>
         </div>
         <div n="h04">
-          <ab n="rubric">RG</ab>
-          <ab n="1">Sederunt principes <w><abbr>&amp;</abbr><expan>et</expan></w>
-          aduerson me loquebantur <w><abbr>&amp;</abbr><expan>et</expan></w> iniqui
-          perfectum sunt me.</ab>
+          <ab n="rubric"><abbr>RG</abbr></ab>
+          <ab n="1">Sederunt principes &amp; aduerson me loquebantur &amp; iniqui perfectum sunt me.</ab>
         </div>
         <div n="h05">
-          <ab n="rubric">V</ab>
+          <ab n="rubric"><abbr>V</abbr></ab>
           <ab n="1">Adiua me domine deus meus saluum me sac propter
             misericordiam tuam</ab>
         </div>
         <div n="h06">
           <ab n="1">Alleluia</ab>
-          <ab n="2">Video caelos apertos <w><abbr>&amp;</abbr><expan>et</expan></w>
-          IHCYM stantem adextris virtutis dei.</ab>
+          <ab n="2">Video caelos apertos &amp; IHCYM stantem adextris virtutis dei.</ab>
         </div>
         <div n="h07">
-          <ab n="rubric">Of</ab>
+          <ab n="rubric"><abbr>Of</abbr></ab>
           <ab n="1">In virtute tua d.</ab>
         </div>
         <div n="x148_02_01">
-          <ab n="rubric">Of</ab>
+          <ab n="rubric"><abbr>Of</abbr></ab>
           <ab n="1">Elegerunt apti</ab>
         </div>
         <div n="h10">
-          <ab n="rubric">ADCO</ab>
+          <ab n="rubric"><abbr>ADCO</abbr></ab>
           <ab n="1">Video caelos.</ab>
         </div>
       </div>
