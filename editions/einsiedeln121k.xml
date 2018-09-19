@@ -29,11 +29,11 @@
         </div>
         <div n="h04">
           <ab n="1">Uiderunt omnes fines terrae salutare dei nostri
-            <w>iubil<unclear>ate</unclear></w> deo <w><unclear>o</unclear>mnis</w> terra</ab>
+            <unclear>iubilate</unclear> deo <unclear>omnis</unclear> terra</ab>
         </div>
         <div n="h05">
           <ab n="rubric">V</ab>
-          <ab n="1">Notum fecit dominus salutare suum ante conspectum gentium re uela uit iustitiam
+          <ab n="1">Notum fecit dominus salutare suum ante conspectum gentium reuelauit iustitiam
             suam</ab>
         </div>
         <div n="h06">
@@ -81,7 +81,7 @@
           <ab n="1">Beati imauaiiiaiaiiain eeoii</ab>
         </div>
         <div n="h04">
-          <ab type = "rubric" n="r3">RG</ab>
+          <ab type = "rubric">RG</ab>
           <ab n="1">Sederunt principes et aduersum me loquebantur et iniqui perfecuti sunt me</ab>
         </div>
         <div n="h05">
@@ -109,10 +109,7 @@
             am et magnum decorem impones super eum Desici</ab>
         </div>
 
-<!-- not in h012
-      see 148.2@01 Elegerunt apostoli -->
-
-        <div n="h148.2-01">
+       <div n="x148_02-01">
           <ab n="rubric">Of</ab>
           <ab n="1">Ei egerunt apostoli stephanum levitam plenum fide et spiritu sancto quem lapidauerunt
             iudei orantem et dicentem domine iesu accipe spiritum</ab>
