@@ -38,3 +38,7 @@
 [0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 14.598s.[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.4[0m
 [0m[[0m[0minfo[0m] [0m[0mStarting scala interpreter...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Thread run-main-0 exited.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInterrupting remaining threads (should be all daemons).[0m
+[0m[[0m[0mdebug[0m] [0m[0mSandboxed run complete..[0m
+[0m[[0m[0mdebug[0m] [0m[0mExited with code 0[0m
