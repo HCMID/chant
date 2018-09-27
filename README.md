@@ -38,7 +38,7 @@ Other data sets:
 
 
 -   Collection of images:  `urn:cite2:ecod:codsang359imgs.v1:`
--   Pages of the manuscript: `urn:cite2:ecod:sg3d539pages.v1:`
+-   Pages of the manuscript: `urn:cite2:ecod:sg359pages.v1:`
 -   The text of the antiphonary:  `urn:cts:chant:massordinary.sg359.text`
 
 
