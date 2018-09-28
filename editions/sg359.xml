@@ -22,6 +22,20 @@
   <text>
     <body>
 
+      <div n="h007_2">
+        <div n="h00">
+          <ab n="1">DOMINICA IIII</ab>
+        </div>
+        <div n="h02">
+          <ab n="rubric"><abbr>A</abbr></ab>
+          <ab n="1">Memento nostri <choice><abbr>dne</abbr><expan>domine</expan></choice>.</ab>
+        </div>
+        <div n="h08">
+          <ab n="rubric"><abbr>RG</abbr></ab>
+          <ab n="1">A summo caelo.</ab>
+        </div>
+      </div>
+
       <div n="h009">
         <div n="h00">
           <ab n="1">IN PRIMO GALLI CANTU</ab>
