@@ -34,7 +34,30 @@
           <ab n="rubric"><abbr>RG</abbr></ab>
           <ab n="1">A summo caelo.</ab>
         </div>
+        <div n="h10">
+          <ab n="rubric"><abbr>V</abbr></ab>
+          <ab n="1">Caeli enarrant.</ab>
+        </div>
+        <div n="x01">
+          <ab n="1">Alleluia</ab>
+          <ab n="2">Memento nostri domine in beneplacito tuo visita nos in salutari tuo.</ab>
+        </div>
+        <div n="h14">
+          <ab n="rubric"><abbr>ADOF</abbr></ab>
+          <ab n="1">Aue maria.</ab>
+        </div>
+        <div n="h18">
+          <ab n="rubric"><abbr>CO</abbr></ab>
+          <ab n="1">Ecce virgo <choice><abbr>concip</abbr><expan>concipiet</expan></choice></ab>
+        </div>
       </div>
+      <div n="h008">
+        <div n="h00">
+          <ab n= "1">IN VIGIL NATI DNI</ab>
+        </div>
+
+      </div>
+
 
       <div n="h009">
         <div n="h00">
