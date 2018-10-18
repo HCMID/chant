@@ -55,7 +55,14 @@
         <div n="h00">
           <ab n= "1">IN VIGIL NATI DNI</ab>
         </div>
-
+        <div n="h01">
+            <ab n="rubric"><abbr>A</abbr></ab>
+            <ab n="1">Hodie scietis quia.</ab>
+        </div>
+        <div n="h04">
+          <ab n="rubric"><abbr>RG</abbr></ab>
+          <ab n="1">hodie scietis quia veniet dominus et saluabit vos et mane videbitis gloriam eius.</ab>
+        </div>
       </div>
 
 
