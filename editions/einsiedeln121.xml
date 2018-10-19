@@ -18,7 +18,15 @@
   </teiHeader>
   <text>
     <body>
-
+      <div n="h010">
+        <div n="h01">
+          <ab n="rubric">In primo mane</ab>
+          <ab n="1">Lux fulgebit hodie super nos quia natus est nobis dominus et vocabitur ad mirabilis deus princeps pacis pater futuri saeculi cuis regni non erit finis. <unclear></unclear> eeiieiue</ab>
+        </div>
+        <div>
+          <ab n="rubric"></ab>
+        </div>
+      </div>
       <div n="h011">
         <div n="h01">
           <ab n="1">Puer natus est nobis et filius datus est nobis cuius imperium super
