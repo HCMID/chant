@@ -62,43 +62,31 @@
         </div>
         <div n="h04">
           <ab n="rubric"><abbr>RG</abbr></ab>
-          <ab n="1">hodie scietis quia veniet dominus et saluabit vos et mane videbitis gloriam eius.</ab>
+          <ab n="1">hodie scietis quia veniet dominus et saluabit vos et mane videbitis
+              gloriam eius.</ab>
         </div>
         <div n="h05">
           <ab n="rubric"><abbr>V</abbr></ab>
           <ab n="1"> Qui regis israhel Intende qui deducis uelut ouem io seph qui sedes super
              cherubim appare coram effrem beniamin &amp; manasse.</ab>
         </div>
-      </div>
-
-      <!-- this feast is duplicated. how to proceed? -->
-      <div n="hd007_2">
-        <div n="h00">
+        <div n="x00">
           <ab n="1"> SI DOMINICA EVENERIT IPSA VIGILIA TVNC <w>A<unclear>II</unclear></w> CANTETUR. SIN AV <w>NONCA<unclear>NT</unclear></w>.</ab>
         </div>
-        <div n="h12">
+        <div n="x01">
           <ab n="1"> ALLELUIA </ab>
           <ab n="2">Veni domine &amp; noli tardare relaxa facinora plebis tuae.</ab>
         </div>
-      </div>
-
-      <div n="h008">
         <div n="h07">
           <ab n="rubric"> of </ab>
           <ab n="1"> Tollite portas. </ab>
         </div>
+        <div n="h10">
+          <ab n="rubric"> ADCO </ab>
+          <ab n="1"> Reuelabitur </ab>
+        </div>
       </div>
 
-<div n="h008">
-  <div n="h10">
-    <ab n="rubric"> ADCO </ab>
-    <ab n="1"> Reuelabitur </ab>
-  </div>
-</div>
-
-<div n="">
-
-  </div>
       <div n="h009">
         <div n="h00">
           <ab n="1">IN PRIMO GALLI CANTU</ab>
