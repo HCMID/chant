@@ -1,3 +1,0 @@
-Text URN#Format#Document#Namespace mapping#Citation model
-urn:cts:chant:antiphonary.einsiedeln121.text_xml:#xml#einsiedeln121.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:ab[@n = '?']
-urn:cts:chant:antiphonary.einsiedeln121.neumes_xml:#xml#einsiedeln121neumes-orig.xml#tei->http://www.tei-c.org/ns/1.0#/tei:TEI/tei:text/tei:body/tei:div[@n = '?']/tei:div[@n = '?']/tei:ab[@n = '?']
