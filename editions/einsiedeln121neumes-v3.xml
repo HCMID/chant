@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Cantatorium: Einsiedeln 121</title>
+        <editor>Marika Fox</editor>
+        <editor>Benjamin Desjarlais</editor>
+        <editor>Hannah Nguyen</editor>
+      </titleStmt>
+      <editionStmt>
+        <p>Original diplomatic edition of Einsiedeln 121</p>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Digitally published by HC MID</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Directly edited from images</p>
+        <p>Einsiedeln, Stiftsbibliothek, Codex 121(1151)
+          – Graduale–Notkeri Sequentiae (https://www.e-codices.ch/en/list/one/sbe/0121)</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <div n="h010">
+        <div n="h01">
+          <ab n="1">1.2.0.0-2.1.0.0-1.1.0.0-0.7.0.0-0.10.0.0
+            0.5.0.0-2.2.0.0-0.12.0.0
+            1.2.0.0-1.2.0.0-2.1.0.0-0.3.0.0
+            2.1.0.0-0.3.0.0
+            3.5.0.0
+            2.1.0.0
+            2.2.0.0-1.2.0.0-1.2.0.0-0.10.0.0
+            0.10.0.0-0.12.0.0-1.1.1.0-0.3.0.0-3.3.0.0
+            3.2.0.0
+            1.2.0.0
+            0.9.0.0-1.1.0.0
+            1.2.0.0
+            1.1.0.0
+            3.5.0.0
+            0.7.0.0
+            2.2.0.0-0.10.0.0
+            1.1.0.0
+            3.1.0.0
+            0.3.0.0-1.1.1.0-0.3.0.0-3.3.0.0
+            3.1.0.0
+            1.2.0.0
+            0.5.0.0-1.2.0.0
+            0.5.0.0-3.1.0.0-0.12.0.0
+            0.5.0.0-2.1.0.0
+            3.2.0.0
+            1.2.0.0
+            0.5.0.0-1.2.0.0
+            1.2.0.0
+            1.2.0.0-1.2.0.0-2.1.0.0-0.3.0.0
+            3.5.0.0
+            0.7.0.0-0.10.0.0-2.2.0.0
+            1.2.0.0-0.11.0.0-1.1.1.0
+            0.10.0.0-3.3.0.0-1.2.0.0
+            0.5.0.0-1.2.0.0
+          </ab>
+        </div>
+      </div>
+
+    </body>
+  </text>
+</TEI>
