@@ -18,6 +18,50 @@
   </teiHeader>
   <text>
     <body>
+      <div n="h009">
+        <div n="h00">
+          <ab n="1"> IN PRIMO GALLI CANTU </ab>
+        </div>
+        <div n="h01">
+          <ab n="1"> Dominus dixit ad me filius meus estu ego hodie genui te. </ab>
+        </div>
+        <div n="h02">
+          <ab n="rubric"> <abbr> PS </abbr> </ab>
+          <ab n="1"> Quare <w><abbr>freueu</abbr><expan>fremuerunt</expan></w> <w><abbr>ee</abbr><expan>gentes</expan></w>
+          <w><abbr>e</abbr><expan>et</expan></w> <w><abbr>oui</abbr><expan>populi</expan></w> <w><abbr>eiai</abbr><expan>meditiati</expan></w>
+          <w><abbr>u</abbr><expan>sunt</expan></w> <w><abbr>iaia</abbr><expan>inania</expan></w></ab>
+        </div>
+        <div n="h04">
+          <ab n="rubric"> RG </ab>
+          <ab n="1"> Tecum principium in die urtutis tuae in splendoribus sanctorum ex utero ante luciferum genui te </ab>
+        </div>
+        <div n="h05">
+          <ab n="rubric"> <unclear> V </unclear> </ab>
+          <ab n="1"> Dixit dominus domino meo sede adextris meis donec ponam inimicos tuos scabellum pedum tuorum </ab>
+        </div>
+        <div n="h06">
+          <ab n="1"> Alleluia </ab>
+          <ab n="2"> Dominus dixit ad me filius meus estu ego hodie genui te. </ab>
+        </div>
+        <div n="h07">
+          <ab n="rubric"> <abbr>Of</abbr> </ab>
+          <ab n="1"> Laetentur caeli et exultet tera ante faciem domini quoniam venit</ab>
+
+          <!-- venit appears on following line - how to cite this????? -->
+        </div>
+        <div n="h08">
+          <ab n="rubric"> R </ab>
+          <ab n="1">Cantate domino canticum  nouum cantate domino omnis terra.</ab>
+        </div>
+        <div n="h10">
+          <ab n="rubric">R</ab>
+          <ab n="1">Cantate domino benedicte nomen eius bene nunciate  de die indiem salutare eius ante fa i e</ab>
+        </div>
+        <div n="h11">
+          <ab n="rubric">CO</ab>
+          <ab n="1">In splendoribus sanctorum ex utero ante luciferum genui te.</ab>
+        </div> 
+      </div>
 
       <div n="h010">
         <div n="h01">
