@@ -32,13 +32,21 @@
           <ab n="1">Confitemini <unclear>ii</unclear></ab>
         </div>
         <div n="h09">
-          <ab n="rubric">RG</ab>
+          <ab n="rubric"><abbr>RG</abbr></ab>
           <ab n="1"><w><abbr>Ppe</abbr><expan>Prope</expan></w> <w><abbr>e</abbr><expan>est</expan></w>
           <w><abbr>dns</abbr><expan>dominus</expan></w>.</ab>
         </div>
         <div n="h12">
           <ab n="1">Alleluia</ab>
           <ab n="2">Veni domine et noli tardare relaxa facinora plebi tuae.</ab>
+        </div>
+        <div n="14">
+          <ab n="rubric"><abbr>Of</abbr></ab>
+          <ab n="1">Ave maria gratia</ab>
+        </div>
+        <div n="18">
+          <ab n="rubric"><abbr>Co</abbr></ab>
+          <ab n="1">Ecce uirgo</ab>
         </div>
       </div>
 
