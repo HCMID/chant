@@ -18,6 +18,30 @@
   </teiHeader>
   <text>
     <body>
+      <div n="h007_2">
+        <div n="h00">
+          <ab n="1">DOM PRXIMA</ab>
+        </div>
+        <div n="h02">
+          <ab n="1">MEMENTO NOSTRI DOMINE IN BEneplacito populi tui visita nos in salutari tuo
+          ad uidendum in bonitate electorum tuorum in <w>la<unclear>ti</unclear>tia</w> gentis
+          tue ut lauderis cum hereditate tua</ab>
+        </div>
+        <div n="h05">
+          <ab n="rubric"><abbr>Ps</abbr></ab>
+          <ab n="1">Confitemini <unclear>ii</unclear></ab>
+        </div>
+        <div n="h09">
+          <ab n="rubric">RG</ab>
+          <ab n="1"><w><abbr>Ppe</abbr><expan>Prope</expan></w> <w><abbr>e</abbr><expan>est</expan></w>
+          <w><abbr>dns</abbr><expan>dominus</expan></w>.</ab>
+        </div>
+        <div n="h12">
+          <ab n="1">Alleluia</ab>
+          <ab n="2">Veni domine et noli tardare relaxa facinora plebi tuae.</ab>
+        </div>
+      </div>
+
       <div n="h009">
         <div n="h00">
           <ab n="1"> IN PRIMO GALLI CANTU </ab>
@@ -60,7 +84,7 @@
         <div n="h11">
           <ab n="rubric">CO</ab>
           <ab n="1">In splendoribus sanctorum ex utero ante luciferum genui te.</ab>
-        </div> 
+        </div>
       </div>
 
       <div n="h010">
