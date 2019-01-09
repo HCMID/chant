@@ -18,11 +18,11 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "ohco2" % "10.9.0",
   "edu.holycross.shot" %% "citeobj" % "7.1.1",
   "edu.holycross.shot" %% "cex" % "6.2.1",
-  "edu.holycross.shot" %% "midvalidator" % "1.3.0",
+  "edu.holycross.shot" %% "midvalidator" % "2.0.0",
 
   "edu.holycross.shot" %% "latphone" % "1.5.1",
   "edu.holycross.shot.mid" %% "latin-text-model" % "1.3.0",
-  "edu.holycross.shot" %% "virgapes" % "3.5.1"
+  "edu.holycross.shot" %% "virgapes" % "4.0.0"
 )
 tutTargetDirectory := file("docs")
 tutSourceDirectory := file("shared/src/main/tut")
