@@ -18,9 +18,22 @@
   </teiHeader>
   <text>
     <body>
+      <div n="h007">
+        <div n="h00">
+          <ab n="1">In XII. <abbr>Lect</abbr></ab>
+        </div>
+        <div n="h01">
+          <ab n="1">Veni et ostende nobis faciem
+            tuam domine qui sedes super cherubim et salui erimus.</ab>
+        </div>
+        <div n="h02">
+          <ab n="rubric">Ps</ab>
+          <ab n="1">Qui reiiaeieeieuieuoeoe.</ab>
+        </div>
+      </div>
       <div n="h007_2">
         <div n="h00">
-          <ab n="1">DOM PRXIMA</ab>
+          <ab n="1">DOM <w><abbr>PRXIMA</abbr><expan>PROXIMA</expan></w></ab>
         </div>
         <div n="h02">
           <ab n="1">MEMENTO NOSTRI DOMINE IN BEneplacito populi tui visita nos in salutari tuo
