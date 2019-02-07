@@ -18,9 +18,22 @@
   </teiHeader>
   <text>
     <body>
+      <div n="h007">
+        <div n="h00">
+          <ab n="1">In XII. <abbr>Lect</abbr></ab>
+        </div>
+        <div n="h01">
+          <ab n="1">Veni et ostende nobis faciem
+            tuam domine qui sedes super cherubim et salui erimus.</ab>
+        </div>
+        <div n="h02">
+          <ab n="rubric">Ps</ab>
+          <ab n="1">Qui reiiaeieeieuieuoeoe.</ab>
+        </div>
+      </div>
       <div n="h007_2">
         <div n="h00">
-          <ab n="1">DOM PRXIMA</ab>
+          <ab n="1">DOM <w><abbr>PRXIMA</abbr><expan>PROXIMA</expan></w></ab>
         </div>
         <div n="h02">
           <ab n="1">MEMENTO NOSTRI DOMINE IN BEneplacito populi tui visita nos in salutari tuo
@@ -49,6 +62,7 @@
           <ab n="1">Ecce uirgo</ab>
         </div>
       </div>
+
       <div n="h008">
         <div n="h00">
           <ab n="1">Innat DNI Vigila</ab>
@@ -61,6 +75,7 @@
           <ab n="1">Domini eeaeeiuoeuoieaueuieiiaiaiea</ab>
         </div>
       </div>
+
       <div n="h009">
         <div n="h00">
           <ab n="1"> IN PRIMO GALLI CANTU </ab>
@@ -113,9 +128,10 @@
         </div>
         <div n="h02">
           <ab n="rubric">Ps</ab>
-          <ab n="1"> Dominus <choice><abbr>reai</abbr><expan>regnavit</expan></choice> eoeiuueiuueoiuoiuie </ab>
+          <ab n="1"> Dominus <w><abbr>reai</abbr><expan>regnavit</expan></w> eoeiuueiuueoiuoiuie </ab>
         </div>
       </div>
+
       <div n="h011">
         <div n="h01">
           <ab n="1">Puer natus est nobis et filius datus est nobis cuius imperium super
@@ -129,7 +145,7 @@
             <unclear>iubilate</unclear> deo <unclear>omnis</unclear> terra</ab>
         </div>
         <div n="h05">
-          <ab n="rubric">V</ab>
+          <ab n="rubric"><abbr>V</abbr></ab>
           <ab n="1">Notum fecit dominus salutare suum ante conspectum gentium reuelauit iustitiam
             suam</ab>
         </div>
@@ -139,9 +155,9 @@
             discendit lux magna super terram</ab>
         </div>
         <div n="h07">
-          <ab n="rubric"><w><abbr>Of</abbr><expan>Offertorium</expan></w></ab>
+          <ab n="rubric"><abbr>Of</abbr></ab>
           <ab n="7">Tui sunt caeli et tua est terra orbem terrarum et plenitudi<unclear>nem eius</unclear>
-            tu fundasti <choice><sic>iustitia</sic><corr>iustitiam</corr></choice> et iudicium
+            tu fundasti <w><sic>iustitia</sic><corr>iustitiam</corr></2> et iudicium
             preparatio sedis tuae</ab>
         </div>
         <div n="h08">
@@ -152,7 +168,7 @@
         <div n="h09">
           <ab n="rubric">V</ab>
           <ab n="1"> Misericordia et ueritas praeibunt ante saciem tuam et in
-            <choice><sic>beneplacito</sic><corr>bene placito</corr></choice> tuo exaltabitur cornu nostrum</ab>
+            <w><sic>beneplacito</sic><corr>bene placito</corr></w> tuo exaltabitur cornu nostrum</ab>
         </div>
         <div n="h10">
           <ab n= "rubric">V</ab>
