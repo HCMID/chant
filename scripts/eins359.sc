@@ -29,9 +29,11 @@ val sg359DiplNeumes  = textDiplomaticReader.edition(sg359Neumes)
 
 
 // Toeknized to words
-val sg359diplomaticWords= Latin23Alphabet.tokenizedCorpus(sg359DiplText)
+val sg359diplomaticWordTokens =
+Latin23Alphabet.tokenizeCorpus(sg359DiplText).filter(_.tokenCategory.toString == "Some(LexicalToken)")
+
 // Make lower-case version before syllabifying:
-val wordNodes = sg359diplomaticWords.nodes.map(n => CitableNode(n.urn, n.text.toLowerCase))
+val wordNodes = sg359diplomaticWordTokens.map(tkn => CitableNode(tkn.urn, tkn.string.toLowerCase))
 val sg359lcWords = Corpus(wordNodes)
 // Tokenize lower-case to syllables:
 val sg359textSyllables = Latin23Syllable.tokenizedCorpus(sg359lcWords)
@@ -40,25 +42,48 @@ val sg359textSyllables = Latin23Syllable.tokenizedCorpus(sg359lcWords)
 /////////// Neume editions:
 // Diplomatic editions:
 val sg359diplomaticNeumes  = textDiplomaticReader.edition(sg359Neumes)
-val sg359neumeSyllables = Virgapes.tokenizedCorpus(sg359diplomaticNeumes)
+val sg359neumeSyllables = VirgapesSyllables.tokenizedCorpus(sg359diplomaticNeumes)
+//val sg359neumes = Virgapes.tokenizedCorpus(sg359diplomaticNeumes)
+
+
+val demo = CtsUrn("urn:cts:chant:massordinary.sg359.neumes_xml_dipl:h009.h04.1")
+
+
+def pairPassages(urn: CtsUrn) = {
+  val text = sg359textSyllables ~~ urn.dropVersion
+  val neumes = sg359neumeSyllables ~~ urn.dropVersion
+  if (text.size != neumes.size) {
+    println("Hmm...")
+    println(s"${text.size} text syllables\n${neumes.size} syllables")
+  }
+  val shortLimit = if (text.size > neumes.size) {neumes.size} else {text.size}
+  val max = if (text.size > neumes.size) {text.size} else {neumes.size}
+  for (i <- 0 until shortLimit) {
+    println(text.nodes(i).urn.passageComponent + ":  " + text.nodes(i).text + " " + neumes.nodes(i).text)
+  }
+  println("\nUnpaired syllables:")
+  for (i <- shortLimit until max) {
+    if (text.size > neumes.size) {
+      println(text.nodes(i).urn.passageComponent + ": " + text.nodes(i).text)
+    } else {
+      println(neumes.nodes(i).urn.passageComponent + ": " + neumes.nodes(i).text)
+    }
+  }
+}
+
+
+
+println("\n\nOverview of Einsiedeln 359, text and neumes")
+println("--------------------------------------------")
+println("\nText edition:")
+println(s"${sg359DiplText.size} citable units")
+println(s"${wordNodes.size} word tokens")
+println(s"${sg359textSyllables.size} syllable tokens")
+
+println("\nNeumes edition:")
+println(s"${sg359diplomaticNeumes.size} citable units")
+println(s"${sg359neumeSyllables.size} syllable tokens")
 /*
-
-
-// 2. Create text corpora for diplomatic text, words tokenization and syllable tokenization
-val seikilosTextUrn = CtsUrn("urn:cts:greekMusic:seikilos.1.text:")
-val seikilosTextCorpus = repo.corpus ~~ seikilosTextUrn
-val diplomaticText = reader.edition(seikilosTextCorpus)
-val seikilosWordsCorpus = LiteraryGreekString.tokenizedCorpus(diplomaticText)
-val seikilosSyllabusCorpus = LGSyllable.tokenizedCorpus(seikilosWordsCorpus)
-
-
-
-
-// 3. Create musical notation corpora for diplomatic edition and syllables
-val seikilosNotesUrn = CtsUrn("urn:cts:greekMusic:seikilos.1.notation:")
-val seikilosNotesCorpus = repo.corpus ~~ seikilosNotesUrn
-val diplomaticNotes = reader.edition(seikilosNotesCorpus)
-val seikilosNoteSyllablesCorpus = GreekMusic.tokenizedCorpus(diplomaticNotes)
 
 
 
