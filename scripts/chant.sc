@@ -17,18 +17,30 @@ val neumeDiplomaticReader = MidNeumeReader(MidDiplomaticEdition)
 val sg359textUrn = CtsUrn("urn:cts:chant:massordinary.sg359.text_xml:")
 val sg359neumeUrn = CtsUrn("urn:cts:chant:massordinary.sg359.neumes_xml:")
 
+// XML editions:
 val sg359Text = repo.corpus ~~ sg359textUrn
 val sg359Neumes = repo.corpus ~~ sg359neumeUrn
 
 
+/////////// Text editions:
+// Diplomatic editions:
 val sg359DiplText = textDiplomaticReader.edition(sg359Text)
 val sg359DiplNeumes  = textDiplomaticReader.edition(sg359Neumes)
 
-val wordsDiplomatic= Latin23Alphabet.tokenizedCorpus(sg359DiplText)
 
-val wordNodes = wordsDiplomatic.nodes.map(n => CitableNode(n.urn, n.text.toLowerCase))
-val wordsCorpus = Corpus(wordNodes)
-val textSyllCorpus = Latin23Syllable.tokenizedCorpus(wordsCorpus)
+// Toeknized to words
+val sg359diplomaticWords= Latin23Alphabet.tokenizedCorpus(sg359DiplText)
+// Make lower-case version before syllabifying:
+val wordNodes = sg359diplomaticWords.nodes.map(n => CitableNode(n.urn, n.text.toLowerCase))
+val sg359lcWords = Corpus(wordNodes)
+// Tokenize lower-case to syllables:
+val sg359textSyllables = Latin23Syllable.tokenizedCorpus(sg359lcWords)
+
+
+/////////// Neume editions:
+// Diplomatic editions:
+val sg359diplomaticNeumes  = textDiplomaticReader.edition(sg359Neumes)
+val sg359neumeSyllables = Virgapes.tokenizedCorpus(sg359diplomaticNeumes)
 /*
 
 
