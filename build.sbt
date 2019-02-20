@@ -11,6 +11,7 @@ version := "1.0.0"
 licenses += ("GPL-3.0",url("https://opensource.org/licenses/gpl-3.0.html"))
 resolvers += Resolver.jcenterRepo
 resolvers += Resolver.bintrayRepo("neelsmith", "maven")
+
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
 
@@ -20,10 +21,10 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "citeobj" % "7.2.1",
   "edu.holycross.shot" %% "cex" % "6.2.1",
   "edu.holycross.shot" %% "midvalidator" % "5.6.0",
+  "edu.holycross.shot" %% "latphone" % "2.3.1",
+  //"edu.holycross.shot.mid" %% "latin-text-model" % "1.3.0",
+  "edu.holycross.shot" %% "virgapes" % "6.0.0"
 
-  "edu.holycross.shot" %% "latphone" % "2.3.0",
-  "edu.holycross.shot.mid" %% "latin-text-model" % "1.3.0",
-  "edu.holycross.shot" %% "virgapes" % "5.0.0"
 )
 tutTargetDirectory := file("docs")
 tutSourceDirectory := file("tut")

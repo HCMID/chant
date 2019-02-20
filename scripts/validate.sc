@@ -16,7 +16,7 @@ import edu.holycross.shot.virgapes._
 
 val orthoMap = Map(
   "Latin23" -> Latin23Alphabet,
-  "Virgapes" -> Virgapes()
+  "Virgapes" -> Virgapes
 )
 
 
