@@ -76,7 +76,6 @@ def pairPassages(urn: CtsUrn): String = {
     val shortLimit = if (text.size > neumes.size) {neumes.size} else {text.size}
     val max = if (text.size > neumes.size) {text.size} else {neumes.size}
     for (i <- 0 until shortLimit) {
-
       val neumeList = Virgapes.tokenizeNode(neumes.nodes(i)).filter(_.tokenCategory.toString == "Some(NeumeToken)").map(_.string)
       md ++= "\n*" + text.nodes(i).urn.passageComponent + "*:  **" + text.nodes(i).text + "** " + neumes.nodes(i).text
       for (n <- neumeList) {
@@ -84,14 +83,23 @@ def pairPassages(urn: CtsUrn): String = {
       }
       md ++= "\n"
     }
-    md ++= "\n>Unpaired syllables:\n"
+    md ++= "\n>Unpaired syllables:"
     for (i <- shortLimit until max) {
       if (text.size > neumes.size) {
+        md ++= " extra text syllables\n"
         md ++=  "\n*" + text.nodes(i).urn.passageComponent + "*: " + "**" + text.nodes(i).text + "**\n"
+
       } else {
-        md ++=  "*" + neumes.nodes(i).urn.passageComponent + "*: " + neumes.nodes(i).text + "\n"
+        md ++= " extra neume syllables\n"
+        md ++=  "*" + neumes.nodes(i).urn.passageComponent + "*: " + neumes.nodes(i).text
+        val neumeList = Virgapes.tokenizeNode(neumes.nodes(i)).filter(_.tokenCategory.toString == "Some(NeumeToken)").map(_.string)
+        for (n <- neumeList) {
+          md ++= " " + neumeGlyphHtml(n)
+        }
+        md ++= "\n"
       }
     }
+
   } else {
     //println("\tNO matches in one edition for " + urn.dropVersion)
   }
