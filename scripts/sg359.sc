@@ -110,7 +110,7 @@ def pairPassages(urn: CtsUrn): String = {
 
 
 def summary = {
-  println("\n\nOverview of Einsiedeln 359, text and neumes")
+  println("\n\nOverview of St. Gallen 359, text and neumes")
   println("--------------------------------------------")
   println("\nText edition:")
   println(s"${sg359DiplText.size} citable units")
@@ -126,11 +126,11 @@ def summary = {
 def testEditions = {
   summary
   println("\n\nStarting comparison...")
-  val outputFile = "validation/eins359-comparison.md"
+  val outputFile = "validation/sg359-comparison.md"
   val lines = for (u <- sg359DiplText.nodes.map(_.urn)) yield {
     pairPassages(u)
   }
-  val header = "# Comparison of Einsiedeln 359, text and neumes\n\n"
+  val header = "# Comparison of St. Gallen 359, text and neumes\n\n"
   new PrintWriter(outputFile){write(header + lines.mkString("\n")); close;}
   println("Done.\nReport written to " + outputFile)
 }
