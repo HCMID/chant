@@ -23,7 +23,7 @@ libraryDependencies ++= Seq(
   "edu.holycross.shot" %% "midvalidator" % "5.6.0",
   "edu.holycross.shot" %% "latphone" % "2.3.1",
   //"edu.holycross.shot.mid" %% "latin-text-model" % "1.3.0",
-  "edu.holycross.shot" %% "virgapes" % "6.0.0"
+  "edu.holycross.shot" %% "virgapes" % "6.1.0"
 
 )
 tutTargetDirectory := file("docs")
