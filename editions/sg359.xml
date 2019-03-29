@@ -21,7 +21,9 @@
   </teiHeader>
   <text>
     <body>
-
+<div n="h007">
+  <ab n="h"> </ab>
+</div>
       <div n="h007_2">
         <div n="h00">
           <ab n="1">DOMINICA IIII</ab>
@@ -51,7 +53,6 @@
           <ab n="1">Ecce virgo <choice><abbr>concip</abbr><expan>concipiet</expan></choice></ab>
         </div>
       </div>
-
       <div n="h008">
         <div n="h00">
           <ab n= "1">IN VIGIL NATI DNI</ab>
