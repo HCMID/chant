@@ -18,6 +18,7 @@
   </teiHeader>
   <text>
     <body>
+
       <div n="h007">
         <div n="h00">
           <ab n="1">In XII. <abbr>Lect</abbr></ab>
@@ -30,7 +31,12 @@
           <ab n="rubric">Ps</ab>
           <ab n="1">Qui reiiaeieeieuieuoeoe.</ab>
         </div>
+        <div n="h04">
+          <ab n="rubric">RG</ab>
+          <ab n="1">A summo caelo egressio eius et occursus euis usq. adsummum <w>e<unclear>u</unclear>s</w></ab>
+        </div>
       </div>
+
       <div n="h007_2">
         <div n="h00">
           <ab n="1">DOM <w><abbr>PRXIMA</abbr><expan>PROXIMA</expan></w></ab>
