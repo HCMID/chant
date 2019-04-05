@@ -27,13 +27,18 @@ val sg359Neumes = repo.corpus ~~ sg359neumeUrn
 
 val sg359diplomaticNeumes  = textDiplomaticReader.edition(sg359Neumes)
 
+
+// Citable nodes from a plain-text edition of neumes
 val neumes =  sg359diplomaticNeumes.nodes
 
 
 
 
 
-/**Drop signifactive letters from neume string */
+/** Drop signifactive letters from the string value of a ciitable node.
+*
+* @param cn Citable node with neumes data.
+ */
 def dropLetters(cn: CitableNode) : CitableNode ={
   val neumeText = cn.text.split("[ \t\n\\-]").toVector.filter(_.nonEmpty)
   val neumeList = for (n <- neumeText) yield {
@@ -44,9 +49,10 @@ def dropLetters(cn: CitableNode) : CitableNode ={
   CitableNode(cn.urn, neumeList.filter(_.pitches > 0 ).mkString(" "))
 }
 
-// Only pitched neuemes, no letters
-val noLetters = sg359diplomaticNeumes.nodes.map(dropLetters(_))
-
+/** Relative movement of each neume in a citable node.
+*
+* @param cn Citable node with neumes data.
+*/
 def movement (cn : CitableNode) = {
   val neumeText = cn.text.split("[ \t\n\\-]").toVector.filter(_.nonEmpty)
   val neumeList = for (n <- neumeText) yield {
@@ -55,18 +61,21 @@ def movement (cn : CitableNode) = {
   }
   neumeList.map( n =>  NeumeRelation.relationForName(n.name) )
 }
+
+
+
+// All pitched neumes (no letters) in SG 359
+val noLetters = sg359diplomaticNeumes.nodes.map(dropLetters(_))
+// Relative movement of all neuemes in SG 359
 val mvs = noLetters.map(movement(_))
-
 val deOptioned = mvs.map(_.flatten)
+// Sum of movement
 val summed = deOptioned.map(NeumeRelation.sum(_))
-val urnList = neumes.map(_.urn)
-
-
-
-
-
+// Movement as a series of High/Neutral/Low labels
 val labelled = summed.map( nr => nr.pitches.map(_.label).mkString(" ") )
 
+
+// Zip URNs teogether with labels.
 val urnList = neumes.map(_.urn)
 val  citableNeumeRelations =  urnList zip labelled
 val relationCorpus =  Corpus(citableNeumeRelations.map{ case (u,s) => CitableNode(u,s) })
