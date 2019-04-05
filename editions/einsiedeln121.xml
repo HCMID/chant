@@ -18,6 +18,7 @@
   </teiHeader>
   <text>
     <body>
+
       <div n="h007">
         <div n="h00">
           <ab n="1">In XII. <abbr>Lect</abbr></ab>
@@ -30,7 +31,41 @@
           <ab n="rubric">Ps</ab>
           <ab n="1">Qui reiiaeieeieuieuoeoe.</ab>
         </div>
+        <div n="h04">
+          <ab n="rubric">RG</ab>
+          <ab n="1">A summo caelo egressio eius et occursus euis usq. adsummum <w>e<unclear>u</unclear>s</w></ab>
+        </div>
+        <div n="h05">
+          <ab n="rubric">V</ab>
+          <ab n="1">Caeli enarrant gloriam dei et opera manuum eius adnunciat firmamentum.</ab>
+        </div>
+        <div n="h06">
+          <ab n="rubric">RG</ab>
+          <ab n="1">In sole posuit tabernaculum suum et ipse tamquam sponsus <w><abbr>pcedens</abbr><expan>procedens</expan></w> de thalamo suo.</ab>
+        </div>
+        <div n="h07">
+          <ab n="rubric">VR</ab>
+          <ab n="1">A summo caelo egressio eius et occursus eius usq. adsummum <w>eiu<unclear>s</unclear></w></ab>
+        </div>
+        <div n="h08">
+          <ab n="rubric">RG</ab>
+          <ab n="1">Domine deus uirtutum conuerte nos et ostende faciem tuam et salui erimus.</ab>
+        </div>
+        <div n="h09">
+          <ab n="rubric">VR</ab>
+          <ab n="1">Excita domine potentiam tuam et ueni ut saluos facias nos.</ab>
+        </div>
+        <div n="h10">
+          <ab n="rubric">RG</ab>
+          <ab n="1">Excita domine potentiam tuam et ueni ut saluos facias nos.</ab>
+        </div>
+        <div n="h12">
+          <ab n="rubric">VR</ab>
+          <ab n="1">Qui regis israhel intende qui deducis uelud ouem iuseph qui
+            sedes super cherubim appare coram effraim beniamin et manasse.</ab>
+        </div>
       </div>
+
       <div n="h007_2">
         <div n="h00">
           <ab n="1">DOM <w><abbr>PRXIMA</abbr><expan>PROXIMA</expan></w></ab>
