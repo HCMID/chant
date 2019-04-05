@@ -82,7 +82,11 @@ val relationCorpus =  Corpus(citableNeumeRelations.map{ case (u,s) => CitableNod
 
 
 
-
+/**  Model of the ambitus of a given passage.
+*
+* @param total Total number of steps.
+* @param max Maximum (relative) difference in steps.
+*/
 case class PassageRange(total: Int, max: Int)
 
 def scorePitches(
