@@ -1,3 +1,5 @@
+// This seems out of date and not functioning.
+//
 // Compile a morphological parser
 
 import edu.holycross.shot.tabulae.builder._

@@ -1,6 +1,9 @@
+// THIS SCRIPT NEEDS UPDATING TO USE AN MidReader and MidOrthography
+// for extracting plain-text from XML and for tokenization, respectively.
+//
 import edu.holycross.shot.ohco2._
 import edu.holycross.shot.cite._
-import edu.holycross.shot.mid.latinmodel._
+//import edu.holycross.shot.mid.latinmodel._
 import io.github.hcmid.chant._
 import edu.holycross.shot.virgapes._
 

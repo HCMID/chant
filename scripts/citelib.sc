@@ -1,3 +1,4 @@
+// The data in the analyses diretory need updating: see the README in that dir.
 import edu.holycross.shot.ohco2._
 import edu.holycross.shot.scm._
 import edu.holycross.shot.cite._

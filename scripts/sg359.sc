@@ -1,3 +1,7 @@
+/*
+Reads text and neumes editions for St. Gallen 359, analyses
+each syllabically, and attempts to align them.
+*/
 import edu.holycross.shot.cite._
 import edu.holycross.shot.ohco2._
 import edu.holycross.shot.mid.validator._
