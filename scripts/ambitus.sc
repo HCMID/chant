@@ -21,17 +21,20 @@ val neumeDiplomaticReader = MidNeumeReader(MidDiplomaticEdition)
 val sg359textUrn = CtsUrn("urn:cts:chant:massordinary.sg359.text_xml:")
 val sg359neumeUrn = CtsUrn("urn:cts:chant:massordinary.sg359.neumes_xml:")
 
+val einsneumeUrn = CtsUrn("urn:cts:chant:massordinary.eins121.neumes_xml:")
+
 // XML editions:
 val sg359Text = repo.corpus ~~ sg359textUrn
 val sg359Neumes = repo.corpus ~~ sg359neumeUrn
+val einsNeumes = repo.corpus ~~ einsneumeUrn
 
-val sg359diplomaticNeumes  = textDiplomaticReader.edition(sg359Neumes)
+val sg359DiplomaticNeumes  = textDiplomaticReader.edition(sg359Neumes)
+val einsDiplomaticNeumes = textDiplomaticReader.edition(einsNeumes)
 
 
 // Citable nodes from a plain-text edition of neumes
-val neumes =  sg359diplomaticNeumes.nodes
-
-
+//val sgNeumes =  sg359DiplomaticNeumes.nodes
+//val eNeumes = einsDiplomaticNeumes.nodes
 
 
 
@@ -63,22 +66,33 @@ def movement (cn : CitableNode) = {
 }
 
 
+/** Map a corpus of Neuemes to Neutral-High-Low
+*
+* @param c Corpu sof neumes.
+*/
+def nhl(c: Corpus)= {
+  // Work with pitched neumes only (no letters):
+  val noLetters = c.nodes.map(dropLetters(_))
+  val mvs = noLetters.map(movement(_))
+  val deOptioned = mvs.map(_.flatten)
+  // Sum of movement
+  val summed = deOptioned.map(NeumeRelation.sum(_))
 
-// All pitched neumes (no letters) in SG 359
-val noLetters = sg359diplomaticNeumes.nodes.map(dropLetters(_))
-// Relative movement of all neuemes in SG 359
-val mvs = noLetters.map(movement(_))
-val deOptioned = mvs.map(_.flatten)
-// Sum of movement
-val summed = deOptioned.map(NeumeRelation.sum(_))
-// Movement as a series of High/Neutral/Low labels
-val labelled = summed.map( nr => nr.pitches.map(_.label).mkString(" ") )
+  // Movement as a series of High/Neutral/Low labels
+  //val labelled = summed.map( nr => nr.pitches.map(_.label).mkString(" ") )
 
 
-// Zip URNs teogether with labels.
-val urnList = neumes.map(_.urn)
-val  citableNeumeRelations =  urnList zip labelled
-val relationCorpus =  Corpus(citableNeumeRelations.map{ case (u,s) => CitableNode(u,s) })
+  // Zip URNs together with relative pitch.
+  val urnList = noLetters.map(_.urn)
+  val  citableNeumeRelations =  urnList zip summed
+  citableNeumeRelations
+  //val relationCorpus =  Corpus(citableNeumeRelations.map{ case (u,s) => CitableNode(u,s) })
+
+  //relationCorpus
+}
+
+
+
 
 
 
@@ -120,13 +134,26 @@ def ambitus(nr: NeumeRelation) : PassageRange = {
   scorePitches(nr.pitches, 0)
 }
 
-def slides = {
-  println("")
-  val ambit = ambitus(summed(0))
-  println(urnList(0).passageComponent)
-  println("\tStepwise total:" + ambit.max + ". Changefrom initial pitch: "+ ambit.total)
-  println("")
-  val ambit2 = ambitus(summed(1))
-  println(urnList(1).passageComponent)
-  println("\tStepwise total:" + ambit2.max + ". Changefrom initial pitch: "+ ambit2.total)
+/**
+*
+*/
+def displayAmbitus(c: Corpus) = {
+  val nhled = nhl(c)
+  for (nr <- nhled) {
+    println(nr._1)
+    val labelled = nr._2.pitches.map(_.label).mkString(" ")
+    println(labelled)
+    val ambit = ambitus(nr._2)
+    println("\tStepwise total:" + ambit.max + ". Changefrom initial pitch: "+ ambit.total + "\n")
+  }
 }
+
+def instructions = {
+
+  println("\n\n")
+  println("This scripts load two corpora of neumes, named:\n\n \tsg359DiplomaticNeume\n\teinsDiplomaticNeumes\n")
+  println("To display the relative motion of each citable node,")
+  println("\n\tambitus(CORPUSNAME)")
+}
+
+instructions
