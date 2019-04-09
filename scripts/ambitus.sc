@@ -16,7 +16,7 @@ val baseDir = "editions"
 val repo =  TextRepositorySource.fromFiles(catalog, configFile, baseDir)
 // reader for getting diplomatic edition from XML source
 val textDiplomaticReader = MidProseABReader(MidDiplomaticEdition)
-val neumeDiplomaticReader = MidNeumeReader(MidDiplomaticEdition)
+//val neumeDiplomaticReader = MidNeumeReader(MidDiplomaticEdition)
 
 val sg359textUrn = CtsUrn("urn:cts:chant:massordinary.sg359.text_xml:")
 val sg359neumeUrn = CtsUrn("urn:cts:chant:massordinary.sg359.neumes_xml:")
