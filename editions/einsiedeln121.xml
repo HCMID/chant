@@ -196,11 +196,11 @@
           <w><abbr>u</abbr><expan>sunt</expan></w> <w><abbr>iaia</abbr><expan>inania</expan></w></ab>
         </div>
         <div n="h04">
-          <ab n="rubric"> RG </ab>
+          <ab n="rubric">RG</ab>
           <ab n="1"> Tecum principium in die urtutis tuae in splendoribus sanctorum ex utero ante luciferum genui te</ab>
         </div>
         <div n="h05">
-          <ab n="rubric"> <unclear> V </unclear> </ab>
+          <ab n="rubric">VR</ab>
           <ab n="1"> Dixit dominus domino meo sede a dextris meis donec ponam inimicos tuos scabellum pedum tuorum</ab>
         </div>
         <div n="h06">
@@ -235,6 +235,14 @@
         <div n="h02">
           <ab n="rubric">Ps</ab>
           <ab n="1"> Dominus <w><abbr>reai</abbr><expan>regnavit</expan></w> eoeiuueiuueoiuoiuie </ab>
+        </div>
+        <div n="h04">
+          <ab n="rubric">RG</ab>
+          <ab n="1">Benedictus qui uenit in nomine domini deus dominus et inluxit nobis.</ab>
+        </div>
+        <div n="h05">
+          <ab n="rubric">V</ab>
+          <ab n="1">A domino factum est et est mirabile in oculis nostris.</ab>
         </div>
       </div>
 
